@@ -1,0 +1,179 @@
+# Fashion product search with CLIP - app and its Milvus store in one stack.
+#
+#   docker compose up -d app                        # Milvus + the API on http://127.0.0.1:8000
+#   docker compose run --rm milvus-import --recreate  # load the built vectors into the collection
+#   docker compose run --rm build-embeddings --sample
+#   docker compose run --rm tests
+#   docker compose down            # stop everything, keep the data
+#   docker compose down -v         # also drop the model cache (Milvus data is a bind mount, see below)
+#
+# The dataset and the artifacts are bind-mounted, not baked in: the image stays
+# small and a rebuilt embedding table shows up without rebuilding the image.
+# Milvus keeps its data in ./deploy/milvus/volumes, also a bind mount, so it
+# survives `down -v` and carries over from the standalone store.
+#
+# NOTE: deploy/milvus/docker-compose.yml is the same three services under their
+# own project name and writes to the same ./deploy/milvus/volumes. Run one or
+# the other, never both at once.
+
+name: fashion-clip-search
+
+x-app: &app
+  build:
+    context: .
+    dockerfile: Dockerfile
+  image: fashion-clip-search:latest
+  environment:
+    # The weights are prefetched into the image; keep the container off the
+    # network. Set to 0 if you built with --build-arg PREFETCH_MODEL=false.
+    HF_HUB_OFFLINE: "1"
+    HF_HOME: /opt/hf-cache
+    # milvus, not auto: "auto" silently falls back to the NumPy backend when the
+    # store is unreachable. In this stack the store is part of the deal, so a
+    # missing one should fail loudly instead of quietly changing backends.
+    # Set FASHION_BACKEND=numpy to run the exact-NumPy backend instead.
+    FASHION_BACKEND: milvus
+    # Service name on this stack's network - not 127.0.0.1, which inside a
+    # container is the container itself.
+    MILVUS_URI: http://standalone:19530
+    MILVUS_COLLECTION: fashion_clip
+    # Inference is already batched; let torch use the cores the host allows
+    # rather than oversubscribing them.
+    OMP_NUM_THREADS: "4"
+    TOKENIZERS_PARALLELISM: "false"
+  volumes:
+    # Read-only: the container never writes to the source data.
+    - ./dataset:/app/dataset:ro
+    - ./artifacts:/app/artifacts
+    - ./evaluation:/app/evaluation
+    # Survives PREFETCH_MODEL=false and any future checkpoint change.
+    - hf-cache:/opt/hf-cache
+  depends_on:
+    standalone:
+      condition: service_healthy
+
+services:
+  # --- the app ---------------------------------------------------------------
+  app:
+    <<: *app
+    command: ["python", "-m", "uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - ./dataset:/app/dataset:ro
+      # The server only reads the vector table; keep it read-only so a running
+      # app can never race a build.
+      - ./artifacts:/app/artifacts:ro
+      - ./evaluation:/app/evaluation:ro
+      - hf-cache:/opt/hf-cache
+    restart: unless-stopped
+
+  # --- one-shot jobs ---------------------------------------------------------
+  # Each takes the module's own flags:
+  #   docker compose run --rm build-embeddings --batch-size 64
+  #   docker compose run --rm evaluate score --split development
+
+  # Reads the built vectors.npy / rows.parquet and writes them into the
+  # collection; it never encodes. Rebuild the artifacts first, then re-import
+  # with --recreate.
+  milvus-import:
+    <<: *app
+    entrypoint: ["python", "-m", "src.milvus_import"]
+    command: ["--sample"]
+    profiles: ["tools"]
+
+  build-embeddings:
+    <<: *app
+    entrypoint: ["python", "-m", "src.build_embeddings"]
+    command: ["--sample"]
+    # Encoding needs no vector store.
+    depends_on: []
+    profiles: ["tools"]
+
+  evaluate:
+    <<: *app
+    entrypoint: ["python", "-m", "src.evaluate"]
+    command: ["timing"]
+    profiles: ["tools"]
+
+  verify-encoder:
+    <<: *app
+    entrypoint: ["python", "-m", "src.verify_encoder"]
+    command: ["--limit", "120", "--batch-size", "32"]
+    depends_on: []
+    profiles: ["tools"]
+
+  # Needs neither GPU, weights, dataset, nor Milvus.
+  tests:
+    <<: *app
+    entrypoint: ["python", "-m", "pytest", "-q"]
+    command: []
+    depends_on: []
+    profiles: ["tools"]
+
+  # --- the vector store ------------------------------------------------------
+  # Milvus standalone: pinned together with pymilvus in requirements.txt.
+  # Upgrade both at once.
+  etcd:
+    image: quay.io/coreos/etcd:v3.5.18
+    environment:
+      ETCD_AUTO_COMPACTION_MODE: revision
+      ETCD_AUTO_COMPACTION_RETENTION: "1000"
+      ETCD_QUOTA_BACKEND_BYTES: "4294967296"
+      ETCD_SNAPSHOT_COUNT: "50000"
+    volumes:
+      - ./deploy/milvus/volumes/etcd:/etcd
+    command: >
+      etcd -advertise-client-urls=http://etcd:2379
+      -listen-client-urls=http://0.0.0.0:2379
+      --data-dir /etcd
+    healthcheck:
+      test: ["CMD", "etcdctl", "endpoint", "health"]
+      interval: 30s
+      timeout: 20s
+      retries: 3
+    restart: unless-stopped
+
+  minio:
+    image: quay.io/minio/minio:RELEASE.2024-12-18T13-15-44Z
+    environment:
+      MINIO_ROOT_USER: minioadmin
+      MINIO_ROOT_PASSWORD: minioadmin
+    volumes:
+      - ./deploy/milvus/volumes/minio:/minio_data
+    command: minio server /minio_data --console-address ":9001"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
+      interval: 30s
+      timeout: 20s
+      retries: 3
+    restart: unless-stopped
+
+  standalone:
+    image: milvusdb/milvus:v2.5.4
+    command: ["milvus", "run", "standalone"]
+    security_opt:
+      - seccomp:unconfined
+    environment:
+      ETCD_ENDPOINTS: etcd:2379
+      MINIO_ADDRESS: minio:9000
+    volumes:
+      - ./deploy/milvus/volumes/milvus:/var/lib/milvus
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9091/healthz"]
+      interval: 30s
+      start_period: 90s
+      timeout: 20s
+      retries: 3
+    ports:
+      # Bound to loopback: a development store, not a public service. Published
+      # so `python -m src.milvus_import` also works from the host venv.
+      - "127.0.0.1:19530:19530"
+      - "127.0.0.1:9091:9091"
+    depends_on:
+      - etcd
+      - minio
+    restart: unless-stopped
+
+volumes:
+  hf-cache:

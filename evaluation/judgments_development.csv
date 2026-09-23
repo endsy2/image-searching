@@ -1,0 +1,205 @@
+query_id,query,product_id,name,articleType,baseColour,gender,image_url,grade,_found_by
+D01,navy blue sports shoes,22098,Numero Uno Men Casual Navy Blue Shoes,Casual Shoes,Navy Blue,Men,/images/22098,,clip_raw_weighted_sum@3;clip_rrf@1;clip_weighted_sum@1
+D01,navy blue sports shoes,18539,Puma Unisex Limnos Insignia Blue Casual Shoes,Casual Shoes,Blue,Unisex,/images/18539,,clip_image_only@2
+D01,navy blue sports shoes,34834,ADIDAS Women Ranger Navy Blue Sports Shoes,Sports Shoes,Navy Blue,Women,/images/34834,,baseline@1
+D01,navy blue sports shoes,34840,ADIDAS Women Navy Blue Sports Shoes,Sports Shoes,Navy Blue,Women,/images/34840,,baseline@1
+D01,navy blue sports shoes,15233,ADIDAS Originals Men Samba Blue Casual Shoes,Casual Shoes,Blue,Men,/images/15233,,clip_image_only@3
+D01,navy blue sports shoes,9049,ADIDAS Men Tip Off 2 White Sports Shoes,Sports Shoes,White,Men,/images/9049,,clip_image_only@1
+D01,navy blue sports shoes,39942,Gas Men Navy Blue Shoes,Casual Shoes,Navy Blue,Men,/images/39942,,clip_rrf@4
+D01,navy blue sports shoes,15299,ADIDAS Men Ranger Navy Blue Sports Shoes,Sports Shoes,Navy Blue,Men,/images/15299,,baseline@1
+D01,navy blue sports shoes,44780,Lotto Men Navy Blue Shoes,Casual Shoes,Navy Blue,Men,/images/44780,,clip_rrf@2;clip_weighted_sum@2
+D01,navy blue sports shoes,40692,Numero Uno Men Navy Blue Shoes,Casual Shoes,Navy Blue,Men,/images/40692,,clip_raw_weighted_sum@1;clip_rrf@5;clip_title_only@3;clip_weighted_sum@3
+D01,navy blue sports shoes,19351,Numero Uno Men Navy Blue Shoes,Casual Shoes,Navy Blue,Men,/images/19351,,clip_raw_weighted_sum@2;clip_title_only@1;clip_weighted_sum@5
+D01,navy blue sports shoes,59013,Skechers Men Navy Blue Sports Shoes,Sports Shoes,Navy Blue,Men,/images/59013,,baseline@1
+D01,navy blue sports shoes,3248,Puma Men's Whirlwind Black White Shoe,Sports Shoes,Black,Men,/images/3248,,clip_image_only@5
+D01,navy blue sports shoes,26537,ID Men Blue Shoes,Casual Shoes,Blue,Men,/images/26537,,clip_image_only@4;clip_rrf@3
+D01,navy blue sports shoes,6379,Numero Uno Men's Navy Blue Shoe,Casual Shoes,Navy Blue,Men,/images/6379,,clip_title_only@4
+D01,navy blue sports shoes,24259,Numero Uno Men Navy Blue Shoes,Casual Shoes,Navy Blue,Men,/images/24259,,clip_raw_weighted_sum@5;clip_title_only@2
+D01,navy blue sports shoes,59014,Skechers Men Black & Navy Blue Sports Shoes,Sports Shoes,Navy Blue,Men,/images/59014,,baseline@1
+D01,navy blue sports shoes,7040,Numero Uno Men's Navy Blue Shoe,Casual Shoes,Navy Blue,Men,/images/7040,,clip_raw_weighted_sum@4;clip_title_only@5;clip_weighted_sum@4
+D02,black leather handbag,10321,Murcia Women TMK Black Handbags,Handbags,Black,Women,/images/10321,,clip_image_only@3
+D02,black leather handbag,14877,United Colors of Benetton Women Solid Black Handbags,Handbags,Black,Women,/images/14877,,clip_image_only@5
+D02,black leather handbag,12493,United Colors of Benetton Women Black Handbag,Handbags,Black,Women,/images/12493,,clip_image_only@1
+D02,black leather handbag,43271,Murcia Women Black Handbag,Handbags,Black,Women,/images/43271,,clip_rrf@3
+D02,black leather handbag,53062,Rocia Women Black Handbag,Handbags,Black,Women,/images/53062,,clip_image_only@4;clip_rrf@4
+D02,black leather handbag,21945,Murcia Women Brown Leather Handbag,Handbags,Brown,Women,/images/21945,,baseline@1
+D02,black leather handbag,57240,Murcia Women Black Handbag,Handbags,Black,Women,/images/57240,,clip_raw_weighted_sum@4;clip_weighted_sum@4
+D02,black leather handbag,52766,Fiorelli Women Black Leather Handbag,Handbags,Black,Women,/images/52766,,baseline@1
+D02,black leather handbag,44242,Hidekraft Women Black Handbag,Handbags,Black,Women,/images/44242,,clip_image_only@2
+D02,black leather handbag,52768,Fiorelli Women Black Leather Handbag,Handbags,Black,Women,/images/52768,,baseline@1
+D02,black leather handbag,27744,Murcia Women Leather Black Handbag,Handbags,Black,Women,/images/27744,,baseline@2;clip_title_only@2
+D02,black leather handbag,27682,Murcia Women Black Handbag,Handbags,Black,Women,/images/27682,,clip_raw_weighted_sum@3;clip_rrf@1;clip_weighted_sum@3
+D02,black leather handbag,27739,Murcia Black Handbag,Handbags,Black,Women,/images/27739,,clip_raw_weighted_sum@1;clip_rrf@5;clip_title_only@1;clip_weighted_sum@2
+D02,black leather handbag,3398,Murcia Women Black Handbag,Handbags,Black,Women,/images/3398,,clip_title_only@5
+D02,black leather handbag,57264,Murcia Women Black Handbag,Free Gifts,Black,Women,/images/57264,,clip_raw_weighted_sum@5;clip_weighted_sum@5
+D02,black leather handbag,27053,Yelloe Black Envelope Look Handbag,Handbags,Black,Women,/images/27053,,clip_title_only@4
+D02,black leather handbag,27745,Murcia Women Leather Black Handbag,Handbags,Black,Women,/images/27745,,baseline@5;clip_raw_weighted_sum@2;clip_rrf@2;clip_title_only@3;clip_weighted_sum@1
+D03,silver analog watch,50392,Miss Sixty Silver Watch,Watches,Silver,Women,/images/50392,,clip_raw_weighted_sum@3;clip_rrf@1;clip_title_only@1
+D03,silver analog watch,50395,Miss Sixty Silver Dial Watch,Watches,Silver,Women,/images/50395,,clip_raw_weighted_sum@5
+D03,silver analog watch,50418,Miss Sixty Silver Dial Watch,Watches,Silver,Women,/images/50418,,clip_raw_weighted_sum@4
+D03,silver analog watch,50403,Miss Sixty Silver Watch,Watches,Silver,Women,/images/50403,,clip_rrf@5;clip_title_only@2
+D03,silver analog watch,46312,Fossil Women Silver Dial Analog & Chronograph Watch CH2823,Watches,Silver,Women,/images/46312,,baseline@1
+D03,silver analog watch,25673,Fastrack Women Silver-Toned Dial Watch NA6001SM01,Watches,Silver,Women,/images/25673,,clip_image_only@5
+D03,silver analog watch,50391,Miss Sixty Silver Dial Watch,Watches,Silver,Women,/images/50391,,clip_raw_weighted_sum@2;clip_rrf@4;clip_title_only@4
+D03,silver analog watch,23285,Maxima Men White Watch,Watches,White,Men,/images/23285,,clip_image_only@4;clip_rrf@2;clip_weighted_sum@2
+D03,silver analog watch,49881,Q&Q Women Silver Dial Analog Watch,Watches,Silver,Women,/images/49881,,baseline@1
+D03,silver analog watch,49875,Q&Q Women Silver Dial Analog Watch,Watches,Silver,Women,/images/49875,,baseline@1
+D03,silver analog watch,17440,Casio Men Steel Watch EX045 EFR-502D-7AVDF,Watches,Steel,Men,/images/17440,,clip_image_only@2
+D03,silver analog watch,53586,Q&Q Men Sliver Dial Watch,Watches,Silver,Men,/images/53586,,clip_weighted_sum@4
+D03,silver analog watch,26329,DKNY Women White Dial Watch NY4519,Watches,White,Women,/images/26329,,clip_image_only@1
+D03,silver analog watch,46311,Fossil Men Silver Dial Analog Chronograph Watch CH2815,Watches,Silver,Men,/images/46311,,baseline@1
+D03,silver analog watch,32349,Q&Q Men Steel Watch,Watches,Steel,Men,/images/32349,,clip_weighted_sum@1
+D03,silver analog watch,23517,ADIDAS Originals Men White Dial Watch ADH2578,Watches,White,Men,/images/23517,,clip_image_only@3
+D03,silver analog watch,50389,Miss Sixty Silver Dial Watch,Watches,Silver,Women,/images/50389,,clip_raw_weighted_sum@1;clip_rrf@3;clip_title_only@3;clip_weighted_sum@5
+D03,silver analog watch,21478,Ice Women Classic Solid Silver Watch,Watches,Silver,Women,/images/21478,,clip_weighted_sum@3
+D03,silver analog watch,50394,Miss Sixty Silver Dial Watch,Watches,Silver,Women,/images/50394,,clip_title_only@5
+D03,silver analog watch,25623,Fastrack Men Silver Dial Analog Chronograph Watch,Watches,Silver,Men,/images/25623,,baseline@1
+D04,women's red summer dress,52501,Red Rose Red Nightdress,Baby Dolls,Red,Women,/images/52501,,clip_weighted_sum@5
+D04,women's red summer dress,45834,Vishudh Women Red Kurta,Kurtas,Red,Women,/images/45834,,clip_image_only@5
+D04,women's red summer dress,15103,Mother Earth Women Printed Red Kurtas,Kurtas,Red,Women,/images/15103,,clip_image_only@4
+D04,women's red summer dress,25964,Femella Women Red Tunic,Tunics,Red,Women,/images/25964,,clip_image_only@1;clip_rrf@3;clip_weighted_sum@2
+D04,women's red summer dress,45777,Remanika Women Red Dress,Dresses,Red,Women,/images/45777,,baseline@5;clip_raw_weighted_sum@4;clip_rrf@1;clip_title_only@5;clip_weighted_sum@4
+D04,women's red summer dress,54559,Global Desi Women Red Tunic,Tunics,Red,Women,/images/54559,,clip_image_only@2;clip_rrf@2;clip_weighted_sum@1
+D04,women's red summer dress,57057,Elle Women Red A-Line Dress,Dresses,Red,Women,/images/57057,,clip_raw_weighted_sum@5;clip_rrf@5
+D04,women's red summer dress,42640,W Women Red Dress,Kurtas,Red,Women,/images/42640,,clip_raw_weighted_sum@1;clip_title_only@2
+D04,women's red summer dress,18736,Arrow Woman Rima Red Dress,Dresses,Red,Women,/images/18736,,clip_title_only@4
+D04,women's red summer dress,25908,Femella Women Red Dress,Dresses,Red,Women,/images/25908,,baseline@5;clip_raw_weighted_sum@3;clip_rrf@4;clip_title_only@3;clip_weighted_sum@3
+D04,women's red summer dress,41571,AND Women Red Dress,Dresses,Red,Women,/images/41571,,baseline@3;clip_raw_weighted_sum@2;clip_title_only@1
+D04,women's red summer dress,57059,Elle Women Red Dress,Dresses,Red,Women,/images/57059,,baseline@1
+D04,women's red summer dress,11609,W Women Solid Red Kurtas,Kurtas,Red,Women,/images/11609,,clip_image_only@3
+D04,women's red summer dress,34578,Tonga Women Printed Red Dress,Dresses,Red,Women,/images/34578,,baseline@1
+D05,men's white formal shirt,59445,Arrow Men White Shirt,Shirts,White,Men,/images/59445,,baseline@1
+D05,men's white formal shirt,23152,Genesis White Formal Shirt,Shirts,White,Men,/images/23152,,baseline@3;clip_raw_weighted_sum@2;clip_title_only@1
+D05,men's white formal shirt,22385,Mark Taylor Men Solid White Shirt,Shirts,White,Men,/images/22385,,clip_raw_weighted_sum@3;clip_rrf@1;clip_title_only@5;clip_weighted_sum@1
+D05,men's white formal shirt,20370,United Colors of Benetton Men Self Stripes White Shirt,Shirts,White,Men,/images/20370,,clip_image_only@2
+D05,men's white formal shirt,22407,Mark Taylor Men Striped White Shirt,Shirts,White,Men,/images/22407,,clip_image_only@5
+D05,men's white formal shirt,14287,Belmonte Men Formal Shirt White Shirts,Shirts,White,Men,/images/14287,,clip_raw_weighted_sum@5;clip_title_only@2
+D05,men's white formal shirt,51424,Myntra Men White Shirt,Shirts,White,Men,/images/51424,,baseline@1
+D05,men's white formal shirt,33233,Arrow Men White Shirt,Shirts,White,Men,/images/33233,,baseline@1
+D05,men's white formal shirt,14768,Arrow Men White Shirt,Shirts,White,Men,/images/14768,,baseline@1
+D05,men's white formal shirt,26042,John Miller Men White Shirt,Shirts,White,Men,/images/26042,,clip_rrf@5
+D05,men's white formal shirt,38086,Allen Solly Men White Shirt,Shirts,White,Men,/images/38086,,clip_rrf@2;clip_weighted_sum@2
+D05,men's white formal shirt,12471,Basics Men White Slim Fit Shirt,Shirts,White,Men,/images/12471,,clip_raw_weighted_sum@1;clip_title_only@3;clip_weighted_sum@4
+D05,men's white formal shirt,22898,Mark Taylor Men Striped Blue Shirt,Shirts,Blue,Men,/images/22898,,clip_image_only@4
+D05,men's white formal shirt,12036,Mark Taylor Men Solid White Shirts,Shirts,White,Men,/images/12036,,clip_rrf@4;clip_weighted_sum@5
+D05,men's white formal shirt,16354,Peter England Men Solid White Shirt,Shirts,White,Men,/images/16354,,clip_image_only@3;clip_rrf@3;clip_weighted_sum@3
+D05,men's white formal shirt,16550,Basics Men White Slim Fit Shirt,Shirts,White,Men,/images/16550,,clip_raw_weighted_sum@4;clip_title_only@4
+D05,men's white formal shirt,26790,Arrow Men White Striped Shirt,Shirts,White,Men,/images/26790,,clip_image_only@1
+D06,brown leather belt,36024,OTLS Men Brown Leather Belt,Belts,Brown,Men,/images/36024,,clip_raw_weighted_sum@5;clip_title_only@5;clip_weighted_sum@5
+D06,brown leather belt,41532,Basics Men Brown Belt,Belts,Brown,Men,/images/41532,,clip_raw_weighted_sum@4;clip_rrf@3;clip_weighted_sum@4
+D06,brown leather belt,36019,OTLS Men Brown Leather Belt,Belts,Brown,Men,/images/36019,,clip_raw_weighted_sum@3;clip_rrf@1;clip_title_only@3;clip_weighted_sum@1
+D06,brown leather belt,8113,Fastrack Men Coffee Canvas Beige Stiches Belt,Belts,Brown,Men,/images/8113,,clip_image_only@1
+D06,brown leather belt,3721,Lee Men Black Canvas Belt,Belts,Black,Men,/images/3721,,clip_image_only@4
+D06,brown leather belt,25724,Wrangler Men Leather Brown Belt,Belts,Brown,Men,/images/25724,,baseline@1
+D06,brown leather belt,27822,Bulchee Men Brown Leather Belt,Belts,Brown,Men,/images/27822,,clip_rrf@2
+D06,brown leather belt,41531,Basics Men Brown Leather Belt,Belts,Brown,Men,/images/41531,,clip_raw_weighted_sum@1;clip_rrf@4;clip_title_only@1;clip_weighted_sum@2
+D06,brown leather belt,34548,Puma Men Leather Brown Belt,Belts,Brown,Men,/images/34548,,baseline@1
+D06,brown leather belt,36020,OTLS Men Brown Leather Belt,Belts,Brown,Men,/images/36020,,clip_title_only@4
+D06,brown leather belt,46067,Lino Perros Men Tan Leather Belt,Belts,Tan,Men,/images/46067,,clip_image_only@3
+D06,brown leather belt,41536,Basics Men Brown Leather Belt,Belts,Brown,Men,/images/41536,,clip_raw_weighted_sum@2;clip_rrf@5;clip_title_only@2;clip_weighted_sum@3
+D06,brown leather belt,8130,Fastrack Men Non Leather Dark Choclate Colour Brown Belts,Belts,Brown,Men,/images/8130,,clip_image_only@2
+D06,brown leather belt,7626,Wrangler Men Brown Leather Belt,Belts,Brown,Men,/images/7626,,baseline@2;clip_image_only@5
+D06,brown leather belt,25732,Wrangler Men Brown Leather Belt,Belts,Brown,Men,/images/25732,,baseline@1
+D06,brown leather belt,29078,Fastrack Men Leather Brown Belt,Belts,Brown,Men,/images/29078,,baseline@1
+D07,pink flip flops,46845,Barbie Pink Girls Slippers,Sandals,Pink,Girls,/images/46845,,clip_title_only@5
+D07,pink flip flops,41912,iPanema Women Pink Flip Flops,Flip Flops,Pink,Women,/images/41912,,baseline@1
+D07,pink flip flops,49828,iPanema Women Pink Flip Flops,Flip Flops,Pink,Women,/images/49828,,clip_image_only@4;clip_rrf@4;clip_weighted_sum@4
+D07,pink flip flops,46851,Barbie Girls Pink Flip Flops,Flip Flops,Pink,Girls,/images/46851,,clip_raw_weighted_sum@2;clip_title_only@1
+D07,pink flip flops,49816,iPanema Women Pink Flip Flops,Flip Flops,Pink,Women,/images/49816,,clip_rrf@5
+D07,pink flip flops,58340,Lotto Women Pink Flip Flops,Flip Flops,Pink,Women,/images/58340,,baseline@6;clip_image_only@1;clip_raw_weighted_sum@3;clip_rrf@1;clip_title_only@4;clip_weighted_sum@1
+D07,pink flip flops,35561,Enroute Teens Pink Sandals,Sandals,Pink,Girls,/images/35561,,clip_raw_weighted_sum@5
+D07,pink flip flops,41945,iPanema Women Pink Flip Flops,Flip Flops,Pink,Women,/images/41945,,baseline@1
+D07,pink flip flops,58337,Lotto Women Pink Flip Flops,Flip Flops,Pink,Women,/images/58337,,baseline@3;clip_raw_weighted_sum@4;clip_title_only@3
+D07,pink flip flops,46859,Barbie Girls Pink Flip Flops,Flip Flops,Pink,Girls,/images/46859,,clip_raw_weighted_sum@1;clip_rrf@2;clip_title_only@2;clip_weighted_sum@2
+D07,pink flip flops,49824,iPanema Women Pink Flip Flops,Flip Flops,Pink,Women,/images/49824,,clip_image_only@2;clip_rrf@3;clip_weighted_sum@3
+D07,pink flip flops,49830,iPanema Women Pink Flip Flops,Flip Flops,Pink,Women,/images/49830,,clip_image_only@5;clip_weighted_sum@5
+D07,pink flip flops,41944,iPanema Women Pink Flip Flops,Flip Flops,Pink,Women,/images/41944,,baseline@1
+D07,pink flip flops,44720,Lotto Women Pink Disco Holic Flip Flops,Flip Flops,Pink,Women,/images/44720,,clip_image_only@3
+D08,blue denim jeans,20350,Spykar Men Washed Blue Jeans,Jeans,Blue,Men,/images/20350,,clip_image_only@4
+D08,blue denim jeans,58222,Vero Moda Women Blue Denim Jeans,Jeans,Blue,Women,/images/58222,,baseline@1
+D08,blue denim jeans,9186,Spykar Men Free Wheeler Spirit Denim Blue Jeans,Jeans,Blue,Men,/images/9186,,baseline@1
+D08,blue denim jeans,14114,Flying Machine Men Washed Jeans,Jeans,Blue,Men,/images/14114,,clip_image_only@3
+D08,blue denim jeans,22784,Deniyo Men Washed Blue Jeans,Jeans,Blue,Men,/images/22784,,clip_rrf@5;clip_weighted_sum@3
+D08,blue denim jeans,20913,Deni Yo Men Washed Blue Jeans,Jeans,Blue,Men,/images/20913,,clip_title_only@5
+D08,blue denim jeans,32560,ONLY Women Blue Jeans,Jeans,Blue,Women,/images/32560,,clip_title_only@2
+D08,blue denim jeans,32567,ONLY Women Blue Jeans,Jeans,Blue,Women,/images/32567,,clip_raw_weighted_sum@3;clip_title_only@3
+D08,blue denim jeans,24755,Spykar Men Blue Jeans,Jeans,Blue,Men,/images/24755,,clip_weighted_sum@5
+D08,blue denim jeans,20910,Deni Yo Men Washed Blue Jeans,Jeans,Blue,Men,/images/20910,,clip_raw_weighted_sum@5;clip_rrf@4;clip_title_only@4;clip_weighted_sum@4
+D08,blue denim jeans,20915,Deni Yo Men Washed Blue Jeans,Jeans,Blue,Men,/images/20915,,clip_raw_weighted_sum@4;clip_rrf@2;clip_weighted_sum@2
+D08,blue denim jeans,24607,Spykar Women Blue Washed Jeans,Jeans,Blue,Women,/images/24607,,clip_image_only@1
+D08,blue denim jeans,42402,Flying Machine Women Blue Denim Shorts,Jeans,Blue,Women,/images/42402,,baseline@1
+D08,blue denim jeans,44586,Lee Men Tino Blue Jeans,Jeans,Blue,Men,/images/44586,,clip_rrf@3
+D08,blue denim jeans,14116,Flying Machine Men Blue Jeans,Jeans,Blue,Men,/images/14116,,clip_image_only@2
+D08,blue denim jeans,22786,Deni Yo Men Washed Blue Jeans,Jeans,Blue,Men,/images/22786,,clip_image_only@5;clip_raw_weighted_sum@1;clip_rrf@1;clip_weighted_sum@1
+D08,blue denim jeans,57075,Elle Blue Jeans,Jeans,Blue,Women,/images/57075,,clip_raw_weighted_sum@2;clip_title_only@1
+D08,blue denim jeans,11520,United Colors of Benetton Women Denim Black Jeans,Jeans,Black,Women,/images/11520,,baseline@1
+D08,blue denim jeans,25719,Wrangler Women Denim Blue Handbag,Handbags,Blue,Women,/images/25719,,baseline@1
+D09,black sunglasses,28297,Fastrack Men Black Sunglasses,Sunglasses,Black,Men,/images/28297,,baseline@1
+D09,black sunglasses,28291,Fastrack Men Black Sunglasses,Sunglasses,Black,Men,/images/28291,,baseline@1
+D09,black sunglasses,38312,I Dee Men Black Frame Sunglasses,Sunglasses,Black,Men,/images/38312,,clip_title_only@4
+D09,black sunglasses,28389,Idee Men Black Sunglasses,Sunglasses,Black,Men,/images/28389,,clip_raw_weighted_sum@4;clip_rrf@1;clip_weighted_sum@2
+D09,black sunglasses,21319,Louis Philippe Men Sunglasses LP045-C1,Sunglasses,Black,Men,/images/21319,,clip_image_only@3
+D09,black sunglasses,28409,Idee Men Black Sunglasses,Sunglasses,Black,Men,/images/28409,,clip_weighted_sum@5
+D09,black sunglasses,28285,Fastrack Men Black Sunglasses,Sunglasses,Black,Men,/images/28285,,baseline@1
+D09,black sunglasses,21273,Allen Solly Unisex Sunglasses AS123-C1,Sunglasses,Black,Unisex,/images/21273,,clip_image_only@5
+D09,black sunglasses,28187,Ray-Ban Men Aviator Steel Sunglasses,Sunglasses,Steel,Men,/images/28187,,clip_image_only@2
+D09,black sunglasses,16889,Police Men Casual Black Sunglasses,Sunglasses,Black,Men,/images/16889,,clip_raw_weighted_sum@5
+D09,black sunglasses,28381,I Dee Men Black Sunglasses,Sunglasses,Black,Men,/images/28381,,clip_raw_weighted_sum@1;clip_rrf@3;clip_title_only@2;clip_weighted_sum@1
+D09,black sunglasses,28292,Fastrack Men Black Sunglasses,Sunglasses,Black,Men,/images/28292,,baseline@1
+D09,black sunglasses,17217,United Colors of Benetton Men Funky Eyewear Black Sunglasses,Sunglasses,Black,Men,/images/17217,,clip_image_only@1
+D09,black sunglasses,28309,Fastrack Men Black Sunglasses,Sunglasses,Black,Men,/images/28309,,baseline@1
+D09,black sunglasses,28391,Idee Men Black Sunglasses,Sunglasses,Black,Men,/images/28391,,clip_rrf@5;clip_weighted_sum@4
+D09,black sunglasses,29894,Mayhem Women Sunglasses 1012-104,Sunglasses,Grey,Women,/images/29894,,clip_image_only@4
+D09,black sunglasses,41517,Basics Men Sunglasses,Sunglasses,Grey,Men,/images/41517,,clip_title_only@5
+D09,black sunglasses,28348,I Dee Men Sunglasses,Sunglasses,Green,Men,/images/28348,,clip_raw_weighted_sum@3;clip_rrf@4;clip_title_only@3
+D09,black sunglasses,28380,I Dee Men Black Sunglasses,Sunglasses,Black,Men,/images/28380,,clip_raw_weighted_sum@2;clip_rrf@2;clip_title_only@1;clip_weighted_sum@3
+D10,striped casual t-shirt,53765,Puma Men Blue Striped T-shirt,Tshirts,Blue,Men,/images/53765,,baseline@1
+D10,striped casual t-shirt,40272,Scullers Men Striped Black T-shirt,Tshirts,Black,Men,/images/40272,,baseline@1
+D10,striped casual t-shirt,11684,Lee Men Striped Shirt,Shirts,White,Men,/images/11684,,clip_title_only@3
+D10,striped casual t-shirt,32384,Arrow Woman Striped Red Top,Tops,Red,Women,/images/32384,,clip_image_only@4
+D10,striped casual t-shirt,43539,French Connection Women Multicoloured Striped Top,Tops,White,Women,/images/43539,,clip_raw_weighted_sum@2;clip_rrf@2;clip_weighted_sum@2
+D10,striped casual t-shirt,53764,Puma Men Blue Striped T-shirt,Tshirts,Blue,Men,/images/53764,,baseline@1
+D10,striped casual t-shirt,10852,Wrangler Men Blue Striped T-shirt,Tshirts,Blue,Men,/images/10852,,baseline@1
+D10,striped casual t-shirt,26357,Arrow Woman Striped Pink T-shirt,Tshirts,Pink,Women,/images/26357,,clip_image_only@1;clip_rrf@4
+D10,striped casual t-shirt,48109,French Connection Women Multicoloured Striped Top,Tops,Navy Blue,Women,/images/48109,,clip_raw_weighted_sum@3;clip_rrf@3;clip_weighted_sum@3
+D10,striped casual t-shirt,33601,Arrow Men Striped White T-shirt,Tshirts,White,Men,/images/33601,,baseline@1
+D10,striped casual t-shirt,5122,Wrangler Women's Striped Peach T-shirt,Tshirts,Peach,Women,/images/5122,,clip_image_only@5
+D10,striped casual t-shirt,41407,Wrangler Women Cowgirl Blue Top,Tops,Blue,Women,/images/41407,,clip_image_only@2
+D10,striped casual t-shirt,13529,Spykar Blue Stripes Tshirt,Tshirts,Blue,Men,/images/13529,,clip_raw_weighted_sum@5;clip_rrf@5;clip_title_only@2
+D10,striped casual t-shirt,29339,Probase Men Striped Grey T-shirt,Tshirts,Grey,Men,/images/29339,,clip_weighted_sum@4
+D10,striped casual t-shirt,15846,Lee Grey Stripes Casual T-Shirts,Tshirts,Grey,Men,/images/15846,,clip_raw_weighted_sum@1;clip_rrf@1;clip_title_only@1;clip_weighted_sum@1
+D10,striped casual t-shirt,5144,Wrangler Women's Nautical Stripe White Blue T-shirt,Tshirts,White,Women,/images/5144,,clip_image_only@3
+D10,striped casual t-shirt,12203,Basics Men White Striped T-shirt,Tshirts,White,Men,/images/12203,,clip_raw_weighted_sum@4;clip_title_only@5
+D10,striped casual t-shirt,28786,Denizen Men Striped Grey Shirt,Shirts,Grey,Men,/images/28786,,clip_title_only@4
+D10,striped casual t-shirt,31549,Classic Polo Men Striped White T-shirt,Tshirts,White,Men,/images/31549,,clip_weighted_sum@5
+D11,gold earrings,46052,Estelle Gold Earrings,Earrings,Gold,Women,/images/46052,,clip_raw_weighted_sum@2;clip_rrf@4;clip_weighted_sum@3
+D11,gold earrings,43789,Royal Diadem Earrings,Earrings,Gold,Women,/images/43789,,clip_image_only@2;clip_rrf@2
+D11,gold earrings,43791,Royal Diadem Gold & Brown Earrings,Earrings,Gold,Women,/images/43791,,clip_image_only@1
+D11,gold earrings,58028,Rreverie Golden Earrings,Earrings,Gold,Women,/images/58028,,clip_raw_weighted_sum@5;clip_weighted_sum@4
+D11,gold earrings,48681,Lucera Women Gold Earrings,Earrings,Gold,Women,/images/48681,,baseline@1
+D11,gold earrings,43867,Royal Diadem White Earrings,Earrings,White,Women,/images/43867,,clip_image_only@5
+D11,gold earrings,48629,Lucera Women Gold Earrings,Earrings,Gold,Women,/images/48629,,baseline@1
+D11,gold earrings,46049,Estelle Gold Earrings,Earrings,Gold,Women,/images/46049,,clip_title_only@5
+D11,gold earrings,43788,Royal Diadem Earrings,Earrings,Gold,Women,/images/43788,,clip_rrf@5
+D11,gold earrings,46047,Estelle Gold Earrings,Earrings,Gold,Women,/images/46047,,baseline@4;clip_raw_weighted_sum@4;clip_title_only@3;clip_weighted_sum@5
+D11,gold earrings,48708,Lucera Women Gold Earrings,Earrings,Gold,Women,/images/48708,,baseline@1
+D11,gold earrings,31717,Fabindia Women Anusuya Gold Earrings,Earrings,Gold,Women,/images/31717,,clip_image_only@4
+D11,gold earrings,46045,Estelle Gold Earrings,Earrings,Gold,Women,/images/46045,,clip_title_only@2
+D11,gold earrings,58133,Rreverie Golden Earrings,Earrings,Gold,Women,/images/58133,,clip_raw_weighted_sum@3;clip_rrf@3;clip_weighted_sum@2
+D11,gold earrings,46048,Estelle Gold Earrings,Earrings,Gold,Women,/images/46048,,clip_title_only@4
+D11,gold earrings,46051,Estelle Gold Earrings,Earrings,Gold,Women,/images/46051,,baseline@1
+D11,gold earrings,46044,Estelle Gold Earrings,Earrings,Gold,Women,/images/46044,,clip_title_only@1
+D11,gold earrings,58020,Rreverie Golden Earrings,Earrings,Gold,Women,/images/58020,,clip_image_only@3;clip_raw_weighted_sum@1;clip_rrf@1;clip_weighted_sum@1
+D12,green backpack,47320,Baggit Women Green Backpack,Backpacks,Green,Women,/images/47320,,baseline@6;clip_image_only@5;clip_raw_weighted_sum@1;clip_rrf@1;clip_title_only@1;clip_weighted_sum@1
+D12,green backpack,4616,Wildcraft Zoomer Green Backpack,Backpacks,Green,Unisex,/images/4616,,clip_title_only@4
+D12,green backpack,29071,Fastrack Unisex Green Backpack,Backpacks,Green,Unisex,/images/29071,,baseline@1
+D12,green backpack,4610,Wildcraft Unisex Green & Grey Printed Backpack,Backpacks,Green,Unisex,/images/4610,,clip_image_only@1
+D12,green backpack,7105,Wildcraft Unisex Green Backpack,Backpacks,Green,Unisex,/images/7105,,baseline@4;clip_raw_weighted_sum@5;clip_rrf@3;clip_weighted_sum@3
+D12,green backpack,20936,Fastrack Unisex Green Backpack,Backpacks,Green,Unisex,/images/20936,,baseline@1
+D12,green backpack,33432,Baggit Green Handbag,Handbags,Green,Women,/images/33432,,clip_raw_weighted_sum@4;clip_title_only@2
+D12,green backpack,38449,Baggit Women Green Bag,Handbags,Green,Women,/images/38449,,clip_rrf@5
+D12,green backpack,36067,OTLS Green Tote Bag,Handbags,Green,Unisex,/images/36067,,clip_title_only@5
+D12,green backpack,21245,Footloose Unisex City Of Joy Laptop Green Backpack,Backpacks,Green,Unisex,/images/21245,,clip_image_only@2
+D12,green backpack,22650,Wildcraft Unisex Green Backpack,Backpacks,Green,Unisex,/images/22650,,clip_image_only@4;clip_raw_weighted_sum@3;clip_rrf@2;clip_weighted_sum@2
+D12,green backpack,47431,Backpackgit Women Green Backpack,Backpacks,Green,Women,/images/47431,,clip_raw_weighted_sum@2;clip_rrf@4;clip_title_only@3;clip_weighted_sum@4
+D12,green backpack,30197,Nike Unisex Casual Green Backpack,Backpacks,Green,Unisex,/images/30197,,baseline@3;clip_image_only@3;clip_weighted_sum@5

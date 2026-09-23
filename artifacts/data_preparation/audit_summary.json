@@ -1,0 +1,36 @@
+{
+  "source_csv": "dataset/styles.csv",
+  "source_csv_sha256": "cd86bd2d71b4065ed91786a52aa6ccc0eed343949791c663be9af35f105a128c",
+  "source_records": 44446,
+  "repaired_csv_records": 22,
+  "quarantined_short_records": 0,
+  "metadata_exclusions": {},
+  "missing_metadata_before_fill": {
+    "id": 0,
+    "gender": 0,
+    "masterCategory": 0,
+    "subCategory": 0,
+    "articleType": 0,
+    "baseColour": 0,
+    "season": 21,
+    "year": 1,
+    "usage": 1,
+    "productDisplayName": 0
+  },
+  "invalid_years": 0,
+  "image_files_scanned": 44441,
+  "unreadable_images": 0,
+  "images_with_invalid_filename_id": 0,
+  "ambiguous_image_ids": 0,
+  "images_without_metadata": 0,
+  "metadata_without_usable_image": 5,
+  "clean_catalog_products": 44441,
+  "products_sharing_image_bytes": 1431,
+  "development_sample_products": 500,
+  "random_seed": 42,
+  "versions": {
+    "python": "3.13.5",
+    "pandas": "2.3.3",
+    "pillow": "12.2.0"
+  }
+}

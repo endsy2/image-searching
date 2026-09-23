@@ -1,0 +1,144 @@
+# .gitignore — Fashion Product Search with CLIP
+#
+# Rule of thumb for this repo: commit the code, the human judgments, and the
+# provenance records. Ignore anything that is downloaded, rebuilt by a command,
+# or written by a running server.
+#
+# Keeping the manifests (artifacts/*/manifest.json) is deliberate: they are a
+# couple of KB each and record model identity, catalog fingerprint, counts and
+# measured timings — the evidence behind the numbers in the README and the
+# evaluation report. The vectors they describe are rebuildable; the record of
+# what was built is not.
+
+# ---------------------------------------------------------------- source data
+# 642 MB of Kaggle fashion-product data. Not ours to redistribute, and every
+# downstream artifact is reproducible from it.
+dataset/images/
+dataset/styles.csv
+archive/
+
+# ----------------------------------------------------------- built artifacts
+# 178 MB of vectors + 32 MB of audit exports. Rebuild with:
+#   jupyter lab fashion_data_cleaning.ipynb      -> data_preparation/
+#   python -m src.build_embeddings               -> embeddings/
+#   python -m src.build_embeddings --sample      -> embeddings_sample/
+artifacts/embeddings/*
+!artifacts/embeddings/manifest.json
+artifacts/embeddings_sample/*
+!artifacts/embeddings_sample/manifest.json
+artifacts/data_preparation/*
+!artifacts/data_preparation/audit_summary.json
+
+# The condensed prepare_data.py path writes these at the artifacts root.
+artifacts/catalog.csv
+artifacts/catalog_sample_500.csv
+
+# store.publish() stages here before the atomic swap; these exist only if a
+# build died mid-write.
+.*.staging.*/
+*.previous/
+
+# ----------------------------------------------------------- Milvus server state
+# deploy/milvus/volumes/ is ~800 MB of live etcd WAL, RocksDB and MinIO segment
+# files. It is server state, not project data — the collection is reproducible
+# with `python -m src.milvus_import --recreate`. Never commit it.
+deploy/milvus/volumes/
+
+# ------------------------------------------------------------------- secrets
+# MILVUS_TOKEN and friends. Commit .env.example instead, if you add one.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# -------------------------------------------------------------- model weights
+# The CLIP checkpoint lives in the Hugging Face cache, not in the repo.
+.cache/
+hf-cache/
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.onnx
+
+# -------------------------------------------------------------------- Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+sdist/
+wheels/
+*.egg-info/
+*.egg
+.installed.cfg
+MANIFEST
+
+# --------------------------------------------------------------- environments
+.venv/
+venv/
+env/
+ENV/
+.python-version
+.conda/
+
+# ---------------------------------------------------------------- test / lint
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+.dmypy.json
+dmypy.json
+
+# -------------------------------------------------------------------- Jupyter
+# The notebook itself IS committed — it is the canonical, audited data-prep path
+# and its stored outputs are part of the audit record. Only the autosave
+# sidecars are ignored.
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+.jupyter/
+.virtual_documents/
+
+# ----------------------------------------------------------------------- IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.spyderproject
+.spyproject
+
+# ------------------------------------------------------------------------- OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ------------------------------------------------------------------------ logs
+*.log
+logs/
+nohup.out
+
+# ------------------------------------------------------- scratch / local notes
+scratch/
+tmp/
+*.tmp
+*.bak
+notes.local.md

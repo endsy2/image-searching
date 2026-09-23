@@ -1,0 +1,22 @@
+# Data, build outputs and the Milvus data volumes are bind-mounted or belong to
+# another compose project; never copy them into the build context.
+dataset/
+artifacts/
+evaluation/
+
+.venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+*.ipynb
+
+.git/
+.gitignore
+.env
+.env.*
+Dockerfile
+docker-compose*.yml
+.dockerignore
+deploy/

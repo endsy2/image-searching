@@ -1,0 +1,86 @@
+{
+  "batch_size": 64,
+  "built_at": "2026-09-22T16:19:03+00:00",
+  "catalog_fingerprint": "2cf622d65a5f32bbf0c0473747b2a71b78dbc1bb9534691bd11491496b1a7b2f",
+  "catalog_path": "artifacts/data_preparation/catalog_clean.csv",
+  "catalog_products": 44441,
+  "device": "cpu",
+  "dim": 512,
+  "encoder": {
+    "context_length": 77,
+    "dim": 512,
+    "image_mean": [
+      0.48145466,
+      0.4578275,
+      0.40821073
+    ],
+    "image_size": 224,
+    "image_std": [
+      0.26862954,
+      0.26130258,
+      0.27577711
+    ],
+    "model_id": "openai/clip-vit-base-patch32",
+    "model_source": "transformers.CLIPModel"
+  },
+  "environment": {
+    "numpy": "2.5.0",
+    "pandas": "2.3.3",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.13.5",
+    "torch": "2.14.0+cpu",
+    "transformers": "4.57.6"
+  },
+  "failure_count": 7,
+  "failures": [
+    {
+      "error": "blank productDisplayName",
+      "id": 30991,
+      "stage": "title"
+    },
+    {
+      "error": "blank productDisplayName",
+      "id": 30992,
+      "stage": "title"
+    },
+    {
+      "error": "blank productDisplayName",
+      "id": 42863,
+      "stage": "title"
+    },
+    {
+      "error": "blank productDisplayName",
+      "id": 42878,
+      "stage": "title"
+    },
+    {
+      "error": "blank productDisplayName",
+      "id": 43119,
+      "stage": "title"
+    },
+    {
+      "error": "blank productDisplayName",
+      "id": 45687,
+      "stage": "title"
+    },
+    {
+      "error": "blank productDisplayName",
+      "id": 45698,
+      "stage": "title"
+    }
+  ],
+  "products_embedded": 44441,
+  "row_counts": {
+    "image": 44441,
+    "title": 44434
+  },
+  "schema_version": 1,
+  "timings": {
+    "image_encode_seconds": 1478.33,
+    "images_per_second": 30.06,
+    "title_encode_seconds": 1007.79,
+    "total_index_seconds": 2486.12
+  },
+  "titles_skipped_blank": 7,
+  "total_rows": 88875
+}

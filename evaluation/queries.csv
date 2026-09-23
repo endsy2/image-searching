@@ -1,0 +1,33 @@
+query_id,split,query,target_article_type,target_colour,target_gender,note
+D01,development,navy blue sports shoes,Sports Shoes,Navy Blue,,article type plus colour
+D02,development,black leather handbag,Handbags,Black,Women,article type plus material
+D03,development,silver analog watch,Watches,Silver,,article type plus colour
+D04,development,women's red summer dress,Dresses,Red,Women,gender plus colour plus article type
+D05,development,men's white formal shirt,Shirts,White,Men,gender plus colour plus usage
+D06,development,brown leather belt,Belts,Brown,,article type plus material
+D07,development,pink flip flops,Flip Flops,Pink,,article type plus colour
+D08,development,blue denim jeans,Jeans,Blue,,article type plus material
+D09,development,black sunglasses,Sunglasses,Black,,simple article type plus colour
+D10,development,striped casual t-shirt,Tshirts,,,pattern attribute - not a metadata field
+D11,development,gold earrings,Earrings,Gold,Women,small object plus colour
+D12,development,green backpack,Backpacks,Green,,article type plus colour
+F01,final_test,black formal shoes for men,Formal Shoes,Black,Men,gender plus usage plus colour
+F02,final_test,white sneakers,Casual Shoes,White,,colloquial article name
+F03,final_test,red high heels,Heels,Red,Women,article type plus colour
+F04,final_test,blue checked shirt,Shirts,Blue,,pattern attribute - not a metadata field
+F05,final_test,women's printed kurta,Kurtas,,Women,ethnic wear plus pattern
+F06,final_test,grey track pants,Track Pants,Grey,,article type plus colour
+F07,final_test,leather wallet for men,Wallets,,Men,article type plus material plus gender
+F08,final_test,yellow cotton t-shirt,Tshirts,Yellow,,colour plus material
+F09,final_test,digital sports watch,Watches,,,sub-type attribute within one article type
+F10,final_test,pink handbag with strap,Handbags,Pink,Women,colour plus structural detail
+F11,final_test,navy blue blazer,Blazers,Navy Blue,,article type plus colour
+F12,final_test,running shoes,Sports Shoes,,,purpose rather than appearance
+F13,final_test,purple casual top,Tops,Purple,Women,colour plus usage
+F14,final_test,brown sandals,Sandals,Brown,,article type plus colour
+F15,final_test,silver bracelet,Bracelet,Silver,Women,small object plus colour
+F16,final_test,black sports bra,Innerwear Vests,Black,Women,specific garment plus colour
+F17,final_test,kids blue shorts,Shorts,Blue,Boys,age group plus colour
+F18,final_test,white socks,Socks,White,,simple article type plus colour
+F19,final_test,orange rucksack,Backpacks,Orange,,synonym for a catalog article type
+F20,final_test,floral print dress,Dresses,,Women,pattern attribute - not a metadata field

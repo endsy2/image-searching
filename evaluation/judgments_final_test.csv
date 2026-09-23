@@ -1,0 +1,327 @@
+query_id,query,product_id,name,articleType,baseColour,gender,image_url,grade,_found_by
+F01,black formal shoes for men,33337,Homme Men Black Formal Shoes,Formal Shoes,Black,Men,/images/33337,,clip_raw_weighted_sum@5;clip_title_only@2
+F01,black formal shoes for men,22143,Provogue Men Black Formal Shoes,Formal Shoes,Black,Men,/images/22143,,clip_image_only@4
+F01,black formal shoes for men,32512,Franco Leone Men Black Formal Shoes,Formal Shoes,Black,Men,/images/32512,,clip_image_only@1
+F01,black formal shoes for men,33336,Homme Men Black Formal Shoes,Formal Shoes,Black,Men,/images/33336,,clip_title_only@1
+F01,black formal shoes for men,45596,Arrow Men Black Formal Shoes,Formal Shoes,Black,Men,/images/45596,,baseline@1
+F01,black formal shoes for men,33361,Homme Men Black Formal Shoes,Formal Shoes,Black,Men,/images/33361,,clip_raw_weighted_sum@2;clip_weighted_sum@4
+F01,black formal shoes for men,33339,Homme Men Black Formal Shoes,Formal Shoes,Black,Men,/images/33339,,clip_raw_weighted_sum@3;clip_rrf@5;clip_title_only@4;clip_weighted_sum@5
+F01,black formal shoes for men,33342,Homme Men Black Formal Shoes,Formal Shoes,Black,Men,/images/33342,,clip_raw_weighted_sum@1;clip_rrf@2;clip_weighted_sum@2
+F01,black formal shoes for men,20823,Red Tape Men Formal Black Shoes,Formal Shoes,Black,Men,/images/20823,,clip_image_only@2
+F01,black formal shoes for men,57496,Lee Cooper Men Black Shoes,Casual Shoes,Black,Men,/images/57496,,clip_image_only@3
+F01,black formal shoes for men,45609,Arrow Men Black Formal Shoes,Formal Shoes,Black,Men,/images/45609,,baseline@1
+F01,black formal shoes for men,47227,Franco Leone Men Black Formal Shoes,Formal Shoes,Black,Men,/images/47227,,clip_image_only@5
+F01,black formal shoes for men,16169,Enroute Men Leather Black Formal Shoes,Formal Shoes,Black,Men,/images/16169,,clip_rrf@3;clip_weighted_sum@3
+F01,black formal shoes for men,33341,Homme Men Black Formal Shoes,Formal Shoes,Black,Men,/images/33341,,clip_title_only@5
+F01,black formal shoes for men,45593,Arrow Men Black Formal Shoes,Formal Shoes,Black,Men,/images/45593,,baseline@1
+F01,black formal shoes for men,24628,Arrow Men Black Formal Shoes,Formal Shoes,Black,Men,/images/24628,,baseline@1
+F01,black formal shoes for men,33338,Homme Men Black Formal Shoes,Formal Shoes,Black,Men,/images/33338,,clip_title_only@3
+F01,black formal shoes for men,16156,Enroute Men Leather Black Formal Shoes,Formal Shoes,Black,Men,/images/16156,,clip_rrf@4
+F01,black formal shoes for men,35399,Enroute Men Black Formal Shoes,Formal Shoes,Black,Men,/images/35399,,clip_raw_weighted_sum@4;clip_rrf@1;clip_weighted_sum@1
+F01,black formal shoes for men,45611,Arrow Men Black Formal Shoes,Formal Shoes,Black,Men,/images/45611,,baseline@1
+F02,white sneakers,13067,Numero Uno Men White Shoes,Casual Shoes,White,Men,/images/13067,,clip_raw_weighted_sum@3;clip_rrf@4;clip_title_only@1
+F02,white sneakers,19350,Numero Uno Men White Shoes,Casual Shoes,White,Men,/images/19350,,clip_title_only@4
+F02,white sneakers,44238,Nike Women White and Red Sneakers,Casual Shoes,White,Women,/images/44238,,baseline@1
+F02,white sneakers,19354,Numero Uno Men White Shoes,Casual Shoes,White,Men,/images/19354,,clip_title_only@5
+F02,white sneakers,30239,Numero Uno Men White Shoes,Casual Shoes,White,Men,/images/30239,,clip_raw_weighted_sum@4
+F02,white sneakers,44230,Nike Men Blue Sneakers,Casual Shoes,Blue,Men,/images/44230,,baseline@1
+F02,white sneakers,7043,Numero Uno White Men's Shoe,Casual Shoes,White,Men,/images/7043,,clip_image_only@4;clip_rrf@2;clip_weighted_sum@2
+F02,white sneakers,13118,Numero Uno Men White Shoes,Casual Shoes,White,Men,/images/13118,,clip_raw_weighted_sum@1;clip_rrf@5;clip_title_only@3;clip_weighted_sum@3
+F02,white sneakers,1917,Puma Men White Sneakers,Casual Shoes,White,Men,/images/1917,,baseline@1
+F02,white sneakers,3236,Puma Women Red Sneakers,Casual Shoes,Red,Women,/images/3236,,baseline@1
+F02,white sneakers,40693,Numero Uno Men White Shoes,Casual Shoes,White,Men,/images/40693,,clip_raw_weighted_sum@2;clip_weighted_sum@4
+F02,white sneakers,24260,Numero Uno Men White Shoes,Casual Shoes,White,Men,/images/24260,,clip_raw_weighted_sum@5
+F02,white sneakers,22728,Nike Women White Court Majestic Sports Shoes,Sports Shoes,White,Women,/images/22728,,clip_image_only@3
+F02,white sneakers,13079,Numero Uno Men White Casual Shoes,Casual Shoes,White,Men,/images/13079,,clip_image_only@2;clip_rrf@1;clip_weighted_sum@1
+F02,white sneakers,17843,Nike Men Legend White Casual Shoe,Casual Shoes,White,Men,/images/17843,,clip_image_only@1
+F02,white sneakers,6635,Nike Men's Air Rally White Shoe,Sports Shoes,White,Men,/images/6635,,clip_image_only@5
+F02,white sneakers,13114,Numero Uno Men Casual White Casual Shoes,Casual Shoes,White,Men,/images/13114,,clip_rrf@3;clip_weighted_sum@5
+F02,white sneakers,13073,Numero Uno Men White Shoes,Casual Shoes,White,Men,/images/13073,,clip_title_only@2
+F02,white sneakers,44237,Nike Women White and Green Sneakers,Casual Shoes,Green,Women,/images/44237,,baseline@1
+F03,red high heels,20735,Enroute Women Mocassin Red Shoes,Flats,Red,Women,/images/20735,,clip_rrf@5
+F03,red high heels,56885,HM Women Red Heels,Heels,Red,Women,/images/56885,,clip_raw_weighted_sum@3;clip_title_only@2
+F03,red high heels,47636,Carlton London Women Red Peep Toes,Heels,Red,Women,/images/47636,,clip_image_only@4
+F03,red high heels,56901,HM Women Red Heels,Heels,Red,Women,/images/56901,,clip_raw_weighted_sum@4;clip_title_only@3
+F03,red high heels,59021,Carlton London Women Red Heels,Heels,Red,Women,/images/59021,,clip_rrf@4;clip_weighted_sum@4
+F03,red high heels,15499,Carlton London Women Casual Red Stilettos,Heels,Red,Women,/images/15499,,clip_image_only@1;clip_weighted_sum@3
+F03,red high heels,13023,Inc 5 Women Casual Red Heels,Heels,Red,Women,/images/13023,,clip_raw_weighted_sum@5;clip_rrf@3;clip_weighted_sum@5
+F03,red high heels,4025,ADIDAS Unisex High Can Red Black Shoe,Casual Shoes,Red,Unisex,/images/4025,,baseline@1
+F03,red high heels,41729,Catwalk Women Red Heels,Heels,Red,Women,/images/41729,,baseline@1
+F03,red high heels,20906,Catwalk Women Casual Red Heels,Heels,Red,Women,/images/20906,,baseline@1
+F03,red high heels,56882,HM Women Red Heels,Heels,Red,Women,/images/56882,,clip_raw_weighted_sum@2;clip_rrf@2;clip_title_only@1;clip_weighted_sum@2
+F03,red high heels,15494,Carlton London Women Casual Maroon Casual Shoes,Casual Shoes,Maroon,Women,/images/15494,,clip_image_only@5
+F03,red high heels,50146,Rocia Women Red Heels,Heels,Red,Women,/images/50146,,baseline@2;clip_title_only@5
+F03,red high heels,20773,Carlton London Women Classy Red Sandals,Flats,Red,Women,/images/20773,,clip_image_only@3
+F03,red high heels,45330,Cobblerz Women Red Heels,Heels,Red,Women,/images/45330,,clip_image_only@2;clip_raw_weighted_sum@1;clip_rrf@1;clip_title_only@4;clip_weighted_sum@1
+F03,red high heels,41725,Catwalk Women Red Heels,Heels,Red,Women,/images/41725,,baseline@1
+F04,blue checked shirt,5941,Locomotive Men Blue Checked Shirt,Shirts,Blue,Men,/images/5941,,clip_raw_weighted_sum@1;clip_rrf@4;clip_title_only@1
+F04,blue checked shirt,33972,Femella Women Blue Checked Shirt,Shirts,Blue,Women,/images/33972,,clip_image_only@1;clip_rrf@2;clip_weighted_sum@1
+F04,blue checked shirt,16991,United Colors of Benetton Men White Check Shirt,Shirts,White,Men,/images/16991,,clip_image_only@4
+F04,blue checked shirt,46367,Locomotive Men Blue and Grey Check Shirt,Shirts,Blue,Men,/images/46367,,clip_rrf@5;clip_weighted_sum@4
+F04,blue checked shirt,41610,Basics Men Blue Checked Shirt,Shirts,Blue,Men,/images/41610,,baseline@4;clip_raw_weighted_sum@4;clip_rrf@1;clip_weighted_sum@2
+F04,blue checked shirt,21168,s.Oliver Women Check Blue Top,Tops,Blue,Women,/images/21168,,clip_image_only@3
+F04,blue checked shirt,11699,Lee Men Blue Check Shirt,Shirts,Blue,Men,/images/11699,,clip_title_only@5
+F04,blue checked shirt,5945,Locomotive Men Blue Checked Shirt,Shirts,Blue,Men,/images/5945,,baseline@2;clip_title_only@2
+F04,blue checked shirt,12469,Basics Men Blue Checked Shirt,Shirts,Blue,Men,/images/12469,,baseline@1
+F04,blue checked shirt,46348,Locomotive Men Blue Check Shirt,Shirts,Blue,Men,/images/46348,,clip_weighted_sum@5
+F04,blue checked shirt,9730,Indian Terrain Men Brock Navy Blue Shirts,Shirts,Navy Blue,Men,/images/9730,,clip_image_only@2
+F04,blue checked shirt,23205,Highlander Men Blue Check Shirt,Shirts,Blue,Men,/images/23205,,clip_raw_weighted_sum@5;clip_rrf@3;clip_weighted_sum@3
+F04,blue checked shirt,5951,Locomotive Men Blue Checked Shirt,Shirts,Blue,Men,/images/5951,,clip_raw_weighted_sum@3;clip_title_only@3
+F04,blue checked shirt,5982,Locomotive Men Blue Checked Shirt,Shirts,Blue,Men,/images/5982,,clip_raw_weighted_sum@2;clip_title_only@4
+F04,blue checked shirt,43544,Scullers Men Checked Blue Shirt,Shirts,Blue,Men,/images/43544,,baseline@1
+F04,blue checked shirt,27563,Scullers Men Checked Blue Shirt,Shirts,Blue,Men,/images/27563,,baseline@1
+F04,blue checked shirt,58801,Highlander Men Green & Navy Blue Check Shirt,Shirts,Green,Men,/images/58801,,clip_image_only@5
+F05,women's printed kurta,28692,W Women Printed Rust Kurta,Kurtas,Rust,Women,/images/28692,,clip_title_only@4
+F05,women's printed kurta,32214,Fabindia Women Printed Black Kurta,Kurtas,Black,Women,/images/32214,,baseline@1
+F05,women's printed kurta,32243,Fabindia Women Printed Blue Kurta,Kurtas,White,Women,/images/32243,,baseline@1
+F05,women's printed kurta,12100,W Women Multi Colour Printed Kurta,Kurtas,Multi,Women,/images/12100,,clip_raw_weighted_sum@4;clip_title_only@3
+F05,women's printed kurta,59383,Vishudh Women White Printed Kurta,Kurtas,White,Women,/images/59383,,clip_image_only@4;clip_weighted_sum@5
+F05,women's printed kurta,21925,BIBA Women Printed Multi Kurta,Kurtas,Blue,Women,/images/21925,,clip_title_only@2
+F05,women's printed kurta,24385,Folklore Women Off White Printed Kurta,Kurtas,Off White,Women,/images/24385,,clip_raw_weighted_sum@3
+F05,women's printed kurta,43253,Aneri Women Cream Kurta,Kurtas,Cream,Women,/images/43253,,clip_image_only@3
+F05,women's printed kurta,28723,W Women Printed Multi Coloured Kurta,Kurtas,Multi,Women,/images/28723,,clip_raw_weighted_sum@5
+F05,women's printed kurta,32238,Fabindia Women Printed Black Kurta,Kurtas,Black,Women,/images/32238,,baseline@1
+F05,women's printed kurta,20382,Visudh Women Printed Rust Kurta,Kurtas,Rust,Women,/images/20382,,clip_raw_weighted_sum@1;clip_rrf@3;clip_title_only@1;clip_weighted_sum@4
+F05,women's printed kurta,59375,Vishudh Women White Printed Kurta,Kurtas,White,Women,/images/59375,,clip_image_only@1;clip_rrf@4;clip_weighted_sum@1
+F05,women's printed kurta,30844,Fabindia Women Printed Blue Kurta,Kurtas,Blue,Women,/images/30844,,baseline@1
+F05,women's printed kurta,28713,W Women Printed White Kurta,Kurtas,White,Women,/images/28713,,clip_image_only@5;clip_rrf@2;clip_weighted_sum@3
+F05,women's printed kurta,40589,Aurelia Women Printed White Kurta,Kurtas,White,Women,/images/40589,,clip_image_only@2;clip_rrf@5
+F05,women's printed kurta,28696,W Women Printed Rust Kurta,Kurtas,Rust,Women,/images/28696,,clip_title_only@5
+F05,women's printed kurta,30846,Fabindia Women Printed Black Kurta,Kurtas,Black,Women,/images/30846,,baseline@1
+F05,women's printed kurta,54587,Sushilas Women Printed White Kurta,Kurtas,White,Women,/images/54587,,clip_raw_weighted_sum@2;clip_rrf@1;clip_weighted_sum@2
+F06,grey track pants,34201,Proline Men Grey Melange Track Pants,Track Pants,Grey Melange,Men,/images/34201,,clip_image_only@1;clip_raw_weighted_sum@2;clip_rrf@1;clip_weighted_sum@1
+F06,grey track pants,26317,Proline Men Grey Track Pants,Track Pants,Grey,Men,/images/26317,,clip_title_only@5
+F06,grey track pants,9776,ADIDAS Men Grey Track Pants,Track Pants,Grey,Men,/images/9776,,baseline@1
+F06,grey track pants,7885,Proline Men Grey Track Pants,Track Pants,Grey,Men,/images/7885,,clip_raw_weighted_sum@4;clip_rrf@4;clip_title_only@1;clip_weighted_sum@5
+F06,grey track pants,7889,Proline Men Grey Track Pants,Track Pants,Grey,Men,/images/7889,,clip_raw_weighted_sum@1;clip_rrf@2;clip_title_only@2;clip_weighted_sum@2
+F06,grey track pants,17999,Puma Men Grey Track Pants,Track Pants,Grey,Men,/images/17999,,baseline@1
+F06,grey track pants,30605,Nike Men Classic Jersey Grey Track Pants,Track Pants,Grey,Men,/images/30605,,clip_image_only@2
+F06,grey track pants,26256,Proline Men Grey Track Pants,Track Pants,Grey,Men,/images/26256,,clip_raw_weighted_sum@3;clip_rrf@5;clip_title_only@3;clip_weighted_sum@4
+F06,grey track pants,43082,Nike Women Grey Track Pants,Track Pants,Grey,Women,/images/43082,,baseline@1
+F06,grey track pants,26260,Proline Men Grey Track Pants,Track Pants,Grey,Men,/images/26260,,clip_title_only@4
+F06,grey track pants,9509,Puma Men N0 1Logo Open Grey Track Pants,Track Pants,Grey,Men,/images/9509,,clip_image_only@4
+F06,grey track pants,53748,ADIDAS Women Grey Track Pants,Track Pants,Grey,Women,/images/53748,,baseline@1
+F06,grey track pants,22585,Nike Men Grey Track Pants,Track Pants,Grey,Men,/images/22585,,baseline@4;clip_raw_weighted_sum@5;clip_rrf@3;clip_weighted_sum@3
+F06,grey track pants,30613,Nike Women Trainning Grey Capris,Capris,Grey,Women,/images/30613,,clip_image_only@5
+F06,grey track pants,8030,Fila Men's Basic Cotton Lower Grey Track Pant,Track Pants,Grey,Men,/images/8030,,clip_image_only@3
+F07,leather wallet for men,20495,Baggit Women Oscar Taj Brown Wallet,Wallets,Brown,Women,/images/20495,,clip_image_only@4
+F07,leather wallet for men,41260,Arrow Men Brown Wallet,Wallets,Brown,Men,/images/41260,,clip_image_only@5
+F07,leather wallet for men,51843,New Hide Men Black Wallet,Wallets,Black,Men,/images/51843,,clip_raw_weighted_sum@3;clip_title_only@5;clip_weighted_sum@4
+F07,leather wallet for men,36110,OTLS Men Black Wallet,Wallets,Black,Men,/images/36110,,clip_rrf@4;clip_weighted_sum@5
+F07,leather wallet for men,50828,New Hide Men Black Wallet,Wallets,Black,Men,/images/50828,,clip_raw_weighted_sum@1;clip_rrf@2;clip_title_only@4;clip_weighted_sum@1
+F07,leather wallet for men,21811,Fossil Men Flyby Brown Wallet,Wallets,Brown,Men,/images/21811,,clip_image_only@3
+F07,leather wallet for men,50825,New Hide Men Black Wallet,Wallets,Black,Men,/images/50825,,clip_raw_weighted_sum@4;clip_rrf@5;clip_title_only@1
+F07,leather wallet for men,37235,United Colors of Benetton Men Leather Black Wallet,Wallets,Black,Men,/images/37235,,clip_image_only@1
+F07,leather wallet for men,41276,Arrow Men Black Leather Wallet,Wallets,Black,Men,/images/41276,,baseline@1
+F07,leather wallet for men,41278,Arrow Men Black Leather Wallet,Wallets,Black,Men,/images/41278,,baseline@1
+F07,leather wallet for men,50826,New Hide Men Black Wallet,Wallets,Black,Men,/images/50826,,clip_raw_weighted_sum@5;clip_title_only@2
+F07,leather wallet for men,29086,Fastrack Men Leather Black Wallet,Wallets,Black,Men,/images/29086,,baseline@1
+F07,leather wallet for men,36101,OTLS Men Josh Brown Wallet,Wallets,Brown,Men,/images/36101,,clip_rrf@1;clip_weighted_sum@3
+F07,leather wallet for men,41274,Arrow Men Black Leather Wallet,Wallets,Black,Men,/images/41274,,baseline@1
+F07,leather wallet for men,18825,Peter England Men Statements Brown Wallet,Wallets,Brown,Men,/images/18825,,clip_image_only@2
+F07,leather wallet for men,29082,Fastrack Men Leather Black Wallet,Wallets,Black,Men,/images/29082,,baseline@1
+F07,leather wallet for men,50827,New Hide Men Black Wallet,Wallets,Black,Men,/images/50827,,clip_raw_weighted_sum@2;clip_rrf@3;clip_title_only@3;clip_weighted_sum@2
+F08,yellow cotton t-shirt,32593,ONLY Women Yellow Top,Tops,Yellow,Women,/images/32593,,clip_title_only@1
+F08,yellow cotton t-shirt,24951,United Colors of Benetton Women Yellow T-shirt,Tshirts,Yellow,Women,/images/24951,,clip_image_only@1
+F08,yellow cotton t-shirt,46810,Nike Women Yellow T-shirt,Tshirts,Yellow,Women,/images/46810,,baseline@1
+F08,yellow cotton t-shirt,17943,Puma Men Yellow Tshirt,Tshirts,Yellow,Men,/images/17943,,clip_image_only@3;clip_rrf@4;clip_weighted_sum@1
+F08,yellow cotton t-shirt,58576,Puma Women Yellow T-shirt,Tshirts,Yellow,Women,/images/58576,,baseline@1
+F08,yellow cotton t-shirt,34244,Proline Men Yellow T-shirt with Printed Detail,Tshirts,Yellow,Men,/images/34244,,clip_raw_weighted_sum@5
+F08,yellow cotton t-shirt,8316,Wildcraft Women's Organic Cotton Yellow T-shirt,Tshirts,Yellow,Women,/images/8316,,baseline@1
+F08,yellow cotton t-shirt,7832,Proline Men Yellow Printed T-shirt,Tshirts,Yellow,Men,/images/7832,,clip_rrf@3;clip_weighted_sum@4
+F08,yellow cotton t-shirt,26284,Proline Men Yellow T-shirt with Printed Detail,Tshirts,Yellow,Men,/images/26284,,clip_raw_weighted_sum@3;clip_rrf@5
+F08,yellow cotton t-shirt,40067,ADIDAS Men Yellow T-shirt,Tshirts,Yellow,Men,/images/40067,,baseline@1
+F08,yellow cotton t-shirt,11762,Lee Women Printed Yellow Tshirts,Tshirts,Yellow,Women,/images/11762,,clip_raw_weighted_sum@4
+F08,yellow cotton t-shirt,34233,Proline Men Mustard Yellow T-shirt,Tshirts,Mustard,Men,/images/34233,,clip_raw_weighted_sum@1;clip_rrf@2;clip_title_only@2;clip_weighted_sum@5
+F08,yellow cotton t-shirt,6292,UCB Men's 77 Agent Yellow T-shirt,Tshirts,Yellow,Men,/images/6292,,clip_image_only@4
+F08,yellow cotton t-shirt,19616,United Colors of Benetton Women Solid Yellow Top,Tops,Yellow,Women,/images/19616,,clip_image_only@2
+F08,yellow cotton t-shirt,27261,Arrow Woman Yellow Top,Tops,Yellow,Women,/images/27261,,clip_image_only@5;clip_weighted_sum@3
+F08,yellow cotton t-shirt,11730,Lee Men Solid Yellow T-shirt,Tshirts,Yellow,Men,/images/11730,,clip_title_only@4
+F08,yellow cotton t-shirt,14027,Nike Men Printed Yellow Tshirts,Tshirts,Yellow,Men,/images/14027,,clip_title_only@3
+F08,yellow cotton t-shirt,32770,Music Men Printed Yellow T-shirt,Tshirts,Yellow,Men,/images/32770,,clip_title_only@5
+F08,yellow cotton t-shirt,2284,Nike Men Yellow T-shirt,Tshirts,Yellow,Men,/images/2284,,baseline@4;clip_raw_weighted_sum@2;clip_rrf@1;clip_weighted_sum@2
+F09,digital sports watch,44994,Maxima Men Digital Watch,Watches,Grey,Men,/images/44994,,baseline@3;clip_raw_weighted_sum@4;clip_title_only@2
+F09,digital sports watch,28585,ADIDAS Men Black Dial Watch,Watches,Black,Men,/images/28585,,clip_image_only@4
+F09,digital sports watch,16788,ADIDAS Unisex Digital Black Watch,Watches,Black,Unisex,/images/16788,,clip_image_only@3
+F09,digital sports watch,45013,Maxima Men Digital Watch,Watches,Silver,Men,/images/45013,,baseline@2;clip_title_only@5
+F09,digital sports watch,11487,Puma Men Flux-M Black Red Black Watches,Watches,Black,Men,/images/11487,,clip_image_only@2
+F09,digital sports watch,53593,Q&Q Men Digital Watch,Watches,Black,Men,/images/53593,,clip_title_only@1
+F09,digital sports watch,4715,ADIDAS Unisex New York Griffiti Digital Black Watch,Watches,Black,Unisex,/images/4715,,clip_image_only@5
+F09,digital sports watch,44995,Maxima Men Digital Watch,Watches,Green,Men,/images/44995,,baseline@5;clip_raw_weighted_sum@2;clip_rrf@2;clip_title_only@3;clip_weighted_sum@2
+F09,digital sports watch,38055,Q&Q Men Black Watch,Watches,Black,Men,/images/38055,,clip_raw_weighted_sum@3;clip_rrf@5;clip_weighted_sum@3
+F09,digital sports watch,11131,Puma Men Beat Black Watches,Watches,Black,Men,/images/11131,,clip_rrf@3;clip_weighted_sum@4
+F09,digital sports watch,45002,Maxima Men Attivo Digital Watch,Watches,Black,Men,/images/45002,,baseline@4;clip_raw_weighted_sum@5;clip_rrf@4;clip_weighted_sum@5
+F09,digital sports watch,45012,Maxima Men Digital Watch,Watches,Silver,Men,/images/45012,,baseline@5;clip_raw_weighted_sum@1;clip_rrf@1;clip_title_only@4;clip_weighted_sum@1
+F09,digital sports watch,10400,Puma Women Flux Shadow 266 Black Watches,Watches,Black,Women,/images/10400,,clip_image_only@1
+F10,pink handbag with strap,21493,Kiara Women Steel Strap Black Handbag,Handbags,Black,Women,/images/21493,,baseline@1
+F10,pink handbag with strap,17139,Lino Perros Women Golden Strap Brown Handbag,Handbags,Brown,Women,/images/17139,,baseline@1
+F10,pink handbag with strap,21494,Kiara Women Steel Strap Black Handbag,Handbags,Black,Women,/images/21494,,baseline@1
+F10,pink handbag with strap,57256,Murcia Women Pink Handbag,Handbags,Pink,Women,/images/57256,,clip_raw_weighted_sum@4;clip_rrf@4;clip_weighted_sum@4
+F10,pink handbag with strap,27712,Murcia Women Pink Handbag,Handbags,Pink,Women,/images/27712,,clip_raw_weighted_sum@5
+F10,pink handbag with strap,53678,Kiara Women Pink Handbag,Handbags,Pink,Women,/images/53678,,clip_image_only@3
+F10,pink handbag with strap,27665,Murcia Women Pink Bag,Handbags,Pink,Women,/images/27665,,clip_title_only@1
+F10,pink handbag with strap,28445,Kiara Women Pink Handbag,Handbags,Pink,Women,/images/28445,,clip_image_only@2;clip_rrf@5
+F10,pink handbag with strap,5074,Being Human Women Pink Silicon Strap with Stones Watch,Watches,Pink,Women,/images/5074,,baseline@1
+F10,pink handbag with strap,17124,Lino Perros Women Golden Strap Black Handbag,Handbags,Black,Women,/images/17124,,baseline@1
+F10,pink handbag with strap,34889,Envirosax Women Pink Bag,Handbags,Pink,Women,/images/34889,,clip_title_only@5
+F10,pink handbag with strap,27671,Murcia Women Pink Handbag,Handbags,Pink,Women,/images/27671,,clip_image_only@1;clip_raw_weighted_sum@2;clip_rrf@1;clip_weighted_sum@2
+F10,pink handbag with strap,47382,Baggit Women Pink Bag,Handbags,Pink,Women,/images/47382,,clip_raw_weighted_sum@3;clip_title_only@2;clip_weighted_sum@5
+F10,pink handbag with strap,38453,Baggit Women Pink Handbag,Handbags,Pink,Women,/images/38453,,clip_title_only@4
+F10,pink handbag with strap,43292,Murcia Women Pink Kate Handbag,Handbags,Pink,Women,/images/43292,,clip_image_only@4;clip_rrf@3;clip_weighted_sum@3
+F10,pink handbag with strap,47423,Baggit Women Pink Bag,Handbags,Pink,Women,/images/47423,,clip_image_only@5;clip_raw_weighted_sum@1;clip_rrf@2;clip_title_only@3;clip_weighted_sum@1
+F11,navy blue blazer,19341,United Colors of Benetton Men Solid Grey Blazer Jacket,Jackets,Grey,Men,/images/19341,,clip_image_only@5
+F11,navy blue blazer,15319,Nike Men Solid Navy Blue Jackets,Jackets,Navy Blue,Men,/images/15319,,clip_rrf@4;clip_weighted_sum@5
+F11,navy blue blazer,31729,Reid & Taylor Men Blue Blazer,Blazers,Blue,Men,/images/31729,,baseline@3;clip_rrf@3;clip_weighted_sum@4
+F11,navy blue blazer,59115,Just Natural Men Navy Blue Jacket,Jackets,Navy Blue,Men,/images/59115,,clip_raw_weighted_sum@1;clip_title_only@1
+F11,navy blue blazer,13678,ADIDAS Women Blazer Sports Shoes,Sports Shoes,Silver,Women,/images/13678,,baseline@1
+F11,navy blue blazer,20792,Basics Men Beige Blazer Jacket,Jackets,Beige,Men,/images/20792,,baseline@1
+F11,navy blue blazer,12607,Jealous 21 Women Solid Purple Shrug,Tops,Purple,Women,/images/12607,,clip_image_only@3
+F11,navy blue blazer,8477,Forever New Women Washed Blue Jacket,Jackets,Blue,Women,/images/8477,,clip_raw_weighted_sum@5;clip_rrf@2;clip_weighted_sum@3
+F11,navy blue blazer,27845,Scullers For Her Black Blazer,Blazers,Black,Women,/images/27845,,clip_rrf@5
+F11,navy blue blazer,19643,United Colors of Benetton Women Solid Grey Sweater,Sweaters,Grey,Women,/images/19643,,clip_image_only@4
+F11,navy blue blazer,57068,Elle Women Navy Blue Jacket,Jackets,Blue,Women,/images/57068,,clip_raw_weighted_sum@4;clip_title_only@3
+F11,navy blue blazer,20791,Basics Men Black Blazer Jacket,Jackets,Black,Men,/images/20791,,baseline@2;clip_title_only@5
+F11,navy blue blazer,31161,Gini and Jony Boys Printed Navy Blue Blazer,Blazers,Navy Blue,Boys,/images/31161,,baseline@6;clip_image_only@2;clip_raw_weighted_sum@2;clip_rrf@1;clip_title_only@4;clip_weighted_sum@1
+F11,navy blue blazer,52043,Just Natural Unisex Navy Blue Jacket,Rain Jacket,Navy Blue,Unisex,/images/52043,,clip_raw_weighted_sum@3;clip_title_only@2
+F11,navy blue blazer,18727,Arrow Woman Venetia Navy Blue Sweater,Sweaters,Navy Blue,Women,/images/18727,,clip_image_only@1;clip_weighted_sum@2
+F12,running shoes,13677,ADIDAS Men Running White Sports Shoes,Sports Shoes,White,Men,/images/13677,,baseline@1
+F12,running shoes,44231,Nike Men Air Max Turbulence+ 18 Grey Sports Shoes,Sports Shoes,Blue,Men,/images/44231,,clip_image_only@2;clip_rrf@4
+F12,running shoes,5476,Nike Women's Air Max Moto White Shoe,Sports Shoes,White,Women,/images/5476,,clip_image_only@1
+F12,running shoes,4530,Puma Women White Running Shoes,Sports Shoes,White,Women,/images/4530,,baseline@1
+F12,running shoes,3220,Puma Men Black Running Shoes,Sports Shoes,Black,Men,/images/3220,,baseline@1
+F12,running shoes,35412,Enroute Men Black Shoes,Casual Shoes,Black,Men,/images/35412,,clip_raw_weighted_sum@5;clip_title_only@3
+F12,running shoes,35817,Enroute Women Black Shoes,Casual Shoes,Black,Women,/images/35817,,clip_title_only@5
+F12,running shoes,3566,ADIDAS Men's White Silver Running Shoe,Sports Shoes,White,Men,/images/3566,,baseline@1
+F12,running shoes,35784,Enroute Women Black Shoes,Flats,Black,Women,/images/35784,,clip_title_only@4
+F12,running shoes,9380,Nike Men Elite Sports Shoes,Sports Shoes,Green,Men,/images/9380,,clip_raw_weighted_sum@3;clip_rrf@5;clip_weighted_sum@3
+F12,running shoes,36419,Spinn Women Alliance Blue Sports Shoes,Sports Shoes,Blue,Women,/images/36419,,clip_image_only@4;clip_rrf@3;clip_weighted_sum@5
+F12,running shoes,15300,ADIDAS Men Running White Sports Shoes,Sports Shoes,White,Men,/images/15300,,baseline@1
+F12,running shoes,1923,Kalenji Women Running Shoe,Sports Shoes,White,Women,/images/1923,,clip_raw_weighted_sum@1;clip_rrf@2;clip_title_only@2;clip_weighted_sum@1
+F12,running shoes,7043,Numero Uno White Men's Shoe,Casual Shoes,White,Men,/images/7043,,clip_raw_weighted_sum@4
+F12,running shoes,9405,FILA Men INTENSE White Shoes,Sports Shoes,White,Men,/images/9405,,clip_image_only@3
+F12,running shoes,1636,Nike Men Air Zoom Century Shoes,Sports Shoes,White,Men,/images/1636,,clip_weighted_sum@4
+F12,running shoes,6740,Nike Women Air Pegasus+ 28 Grey White Pink Shoe,Sports Shoes,Grey,Women,/images/6740,,clip_image_only@5
+F12,running shoes,39623,Nike Men Sports Shoes,Sports Shoes,White,Men,/images/39623,,clip_raw_weighted_sum@2;clip_rrf@1;clip_title_only@1;clip_weighted_sum@2
+F13,purple casual top,2254,ADIDAS Women Purple Top,Tshirts,Purple,Women,/images/2254,,baseline@1
+F13,purple casual top,43662,ONLY Women Purple Top,Tops,Purple,Women,/images/43662,,clip_image_only@4;clip_raw_weighted_sum@1;clip_rrf@1;clip_title_only@1;clip_weighted_sum@1
+F13,purple casual top,57166,Elle Women Lavender Top,Tops,Lavender,Women,/images/57166,,clip_image_only@1;clip_rrf@4;clip_weighted_sum@5
+F13,purple casual top,8448,Jealous 21 Women about my style Purple Top,Tops,Grey,Women,/images/8448,,clip_title_only@5
+F13,purple casual top,8432,Jealous 21 Women Jealous Frills and florals Purple Top Purple Tops,Tops,Purple,Women,/images/8432,,clip_image_only@3
+F13,purple casual top,44810,Spykar Women Purple Top,Tops,Purple,Women,/images/44810,,baseline@2;clip_weighted_sum@4
+F13,purple casual top,25925,Femella Women Purple T-Shirt,Tshirts,Purple,Women,/images/25925,,clip_image_only@5;clip_rrf@5
+F13,purple casual top,52164,Femella Women Purple Top,Tops,Purple,Women,/images/52164,,baseline@3;clip_raw_weighted_sum@3;clip_title_only@4
+F13,purple casual top,10403,Jealous 21 Women Uri Purple Tops,Tops,Purple,Women,/images/10403,,clip_image_only@2
+F13,purple casual top,44800,Spykar Women Purple Top,Tops,Purple,Women,/images/44800,,baseline@4;clip_raw_weighted_sum@5;clip_rrf@3;clip_weighted_sum@3
+F13,purple casual top,6596,Spykar Women Purple Top,Tops,Purple,Women,/images/6596,,baseline@1
+F13,purple casual top,37934,Mineral Women Purple Top,Tops,Purple,Women,/images/37934,,clip_raw_weighted_sum@4;clip_title_only@3
+F13,purple casual top,46270,109F Women Purple Layered Top,Tops,Purple,Women,/images/46270,,clip_raw_weighted_sum@2;clip_rrf@2;clip_title_only@2;clip_weighted_sum@2
+F14,brown sandals,39958,GAS Men Brown Deeply Sandals,Sandals,Brown,Men,/images/39958,,clip_raw_weighted_sum@2;clip_rrf@1;clip_weighted_sum@1
+F14,brown sandals,3137,Catwalk Women Ethnic Leather Flat Brown Flats,Heels,Brown,Women,/images/3137,,clip_image_only@4
+F14,brown sandals,56917,HM Women Brown Sandals,Heels,Brown,Women,/images/56917,,clip_title_only@3
+F14,brown sandals,41873,Estd. 1977 Men Brown Sandals,Sandals,Brown,Men,/images/41873,,clip_rrf@2;clip_weighted_sum@4
+F14,brown sandals,56967,HM Women Brown Sandals,Flats,Brown,Women,/images/56967,,clip_title_only@4
+F14,brown sandals,39959,GAS Men Brown Deeply Sandals,Sandals,Brown,Men,/images/39959,,clip_raw_weighted_sum@5
+F14,brown sandals,45578,Arrow Men Brown Sandals,Sandals,Brown,Men,/images/45578,,baseline@1
+F14,brown sandals,35406,Enroute Men Brown Sandals,Sandals,Brown,Men,/images/35406,,clip_raw_weighted_sum@4
+F14,brown sandals,35545,Enroute Teens Brown Sandals,Sandals,Brown,Girls,/images/35545,,clip_raw_weighted_sum@1;clip_rrf@4;clip_title_only@1;clip_weighted_sum@2
+F14,brown sandals,43007,Nike Men Brown Sandals,Sandals,Brown,Men,/images/43007,,baseline@1
+F14,brown sandals,12961,ADIDAS Men Casual Brown Sandals,Sandals,Brown,Men,/images/12961,,baseline@1
+F14,brown sandals,39960,GAS Men Brown Madly Sandals,Sandals,Brown,Men,/images/39960,,clip_raw_weighted_sum@3;clip_rrf@3;clip_weighted_sum@5
+F14,brown sandals,59145,Tiptopp Women Brown Sandals,Heels,Brown,Women,/images/59145,,clip_image_only@3;clip_rrf@5;clip_weighted_sum@3
+F14,brown sandals,56988,HM Women Brown Sandals,Flats,Brown,Women,/images/56988,,clip_title_only@5
+F14,brown sandals,39738,Arrow Men Brown Sandals,Sandals,Brown,Men,/images/39738,,baseline@1
+F14,brown sandals,18555,Catwalk Women Casual Brown Flats,Heels,Brown,Women,/images/18555,,clip_image_only@5
+F14,brown sandals,39740,Arrow Men Brown Sandals,Sandals,Brown,Men,/images/39740,,baseline@1
+F14,brown sandals,39963,GAS Men Brown Truly Sandals,Sandals,Brown,Men,/images/39963,,clip_title_only@2
+F14,brown sandals,6146,Puma Unisex K9 Coffee Beige Floater,Sandals,Brown,Unisex,/images/6146,,clip_image_only@1
+F14,brown sandals,9103,Provogue Men Ean Tan Flip Flops,Flip Flops,Tan,Men,/images/9103,,clip_image_only@2
+F15,silver bracelet,59552,Lucera Silver Bracelet,Bracelet,Silver,Women,/images/59552,,baseline@5;clip_raw_weighted_sum@1;clip_rrf@1;clip_title_only@1;clip_weighted_sum@1
+F15,silver bracelet,46057,Estelle Women Silver Bracelet,Bracelet,Silver,Women,/images/46057,,clip_image_only@4;clip_rrf@2;clip_weighted_sum@5
+F15,silver bracelet,48587,Lucera Women Silver Bracelet,Bracelet,Silver,Women,/images/48587,,baseline@1
+F15,silver bracelet,48318,Pitaraa Silver Omelette Thin Bracelet,Bracelet,Silver,Women,/images/48318,,clip_raw_weighted_sum@4;clip_title_only@3
+F15,silver bracelet,48737,Revv Men Steel Bangle,Bangle,Steel,Men,/images/48737,,clip_image_only@3
+F15,silver bracelet,48588,Lucera Women Silver Bracelet,Bracelet,Silver,Women,/images/48588,,baseline@1
+F15,silver bracelet,17072,Lino Perros Women Weaved Grey Belt,Belts,Grey,Women,/images/17072,,clip_image_only@5
+F15,silver bracelet,48320,Pitaraa Silver Omelette Thin Bracelet,Bracelet,Silver,Women,/images/48320,,clip_raw_weighted_sum@3;clip_title_only@4
+F15,silver bracelet,59553,Lucera Silver Bracelet,Bracelet,Silver,Women,/images/59553,,baseline@5;clip_raw_weighted_sum@2;clip_rrf@4;clip_title_only@2;clip_weighted_sum@3
+F15,silver bracelet,48589,Lucera Women Silver Bracelet,Bracelet,Silver,Women,/images/48589,,clip_image_only@2;clip_weighted_sum@4
+F15,silver bracelet,48746,Lucera Women Silver Bracelet,Bracelet,Silver,Women,/images/48746,,baseline@1
+F15,silver bracelet,48583,Revv Men Steel Bracelet,Bracelet,Steel,Men,/images/48583,,clip_image_only@1;clip_rrf@5;clip_weighted_sum@2
+F15,silver bracelet,59554,Lucera Silver Bangle,Bangle,Silver,Women,/images/59554,,clip_raw_weighted_sum@5;clip_rrf@3;clip_title_only@5
+F16,black sports bra,39533,Bwitch Black Bra,Bra,Black,Women,/images/39533,,clip_raw_weighted_sum@2;clip_rrf@3;clip_weighted_sum@4
+F16,black sports bra,30472,Lovable Black All Day Long Bra L0296,Bra,Black,Women,/images/30472,,clip_image_only@5;clip_rrf@5
+F16,black sports bra,51193,Enamor Women Black Bra,Bra,Black,Women,/images/51193,,baseline@1
+F16,black sports bra,30508,Lovable Women Spice Black Bra,Bra,Black,Women,/images/30508,,clip_image_only@3;clip_raw_weighted_sum@1;clip_rrf@1;clip_title_only@4;clip_weighted_sum@1
+F16,black sports bra,50975,Enamor Black Lift Bra,Bra,Black,Women,/images/50975,,clip_title_only@5
+F16,black sports bra,59717,Avirate Black Bra,Bra,Black,Women,/images/59717,,clip_raw_weighted_sum@4;clip_title_only@3
+F16,black sports bra,10716,Nike Women Training Sports Bra,Bra,White,Women,/images/10716,,baseline@1
+F16,black sports bra,27472,Jockey Essence Black Bra 2001,Bra,Black,Women,/images/27472,,clip_image_only@4
+F16,black sports bra,32264,Enamor Women Black Bra,Bra,Black,Women,/images/32264,,baseline@1
+F16,black sports bra,27435,Jockey Grey Melange Xena Sports Bra 1378,Bra,Grey Melange,Women,/images/27435,,clip_image_only@2
+F16,black sports bra,10715,Nike Women Training sports bra Black Tops,Tops,Black,Women,/images/10715,,clip_image_only@1;clip_weighted_sum@2
+F16,black sports bra,51018,Enamor Black Bra,Bra,Black,Women,/images/51018,,baseline@1
+F16,black sports bra,30462,Lovable Women All Day Long Black Bra,Bra,Black,Women,/images/30462,,clip_raw_weighted_sum@5;clip_rrf@4;clip_weighted_sum@5
+F16,black sports bra,59699,Avirate Black Bra,Bra,Black,Women,/images/59699,,clip_title_only@2
+F16,black sports bra,59692,Avirate Black Bra,Bra,Black,Women,/images/59692,,clip_title_only@1
+F16,black sports bra,53488,Amante Black Sports Bra BCST22,Bra,Black,Women,/images/53488,,clip_raw_weighted_sum@3;clip_rrf@2;clip_weighted_sum@3
+F16,black sports bra,41811,Enamor Women Black Bra,Bra,Black,Women,/images/41811,,baseline@1
+F17,kids blue shorts,27218,Doodle Kids Boy Printed Blue Shorts,Shorts,Blue,Men,/images/27218,,baseline@1
+F17,kids blue shorts,39745,Gini Jony Boys Blue Shorts,Shorts,Blue,Boys,/images/39745,,clip_raw_weighted_sum@5;clip_title_only@2
+F17,kids blue shorts,36211,Gini Jony Boys Blue Shorts,Shorts,Blue,Boys,/images/36211,,clip_raw_weighted_sum@4;clip_rrf@4;clip_title_only@1;clip_weighted_sum@5
+F17,kids blue shorts,33498,Doodle Kids Boy Printed Blue Shorts,Shorts,Blue,Men,/images/33498,,baseline@1
+F17,kids blue shorts,39324,Gini and Jony Girls Blue Shorts,Shorts,Blue,Girls,/images/39324,,clip_raw_weighted_sum@3;clip_rrf@3;clip_title_only@5;clip_weighted_sum@3
+F17,kids blue shorts,33267,Gini and Jony Girls Blue Shorts,Shorts,Blue,Girls,/images/33267,,clip_image_only@4;clip_raw_weighted_sum@1;clip_rrf@1;clip_title_only@3;clip_weighted_sum@1
+F17,kids blue shorts,6524,Nike Women's Tempo Blue Short,Shorts,Blue,Women,/images/6524,,clip_image_only@3
+F17,kids blue shorts,27215,Doodle Kids Boy Striped Blue Shorts,Shorts,Blue,Men,/images/27215,,baseline@1
+F17,kids blue shorts,39323,Gini and Jony Girls Blue Shorts,Shorts,Blue,Girls,/images/39323,,clip_image_only@5;clip_raw_weighted_sum@2;clip_rrf@2;clip_title_only@4;clip_weighted_sum@2
+F17,kids blue shorts,2722,Disney Kids Boy's Denim Mickey Surf Kidswear,Shorts,Blue,Boys,/images/2722,,clip_image_only@2
+F17,kids blue shorts,33495,Doodle Kids Boy Striped Blue Shorts,Shorts,Blue,Men,/images/33495,,baseline@1
+F17,kids blue shorts,27206,Doodle Kids Boy Light Blue Shorts,Shorts,Blue,Men,/images/27206,,baseline@1
+F17,kids blue shorts,31448,Nike Boys Running Blue Shorts,Shorts,Blue,Boys,/images/31448,,clip_image_only@1;clip_rrf@5;clip_weighted_sum@4
+F18,white socks,30548,Nike Men Pack of 3 Socks,Socks,White,Men,/images/30548,,clip_image_only@3
+F18,white socks,32045,Playboy Men White Socks,Socks,White,Men,/images/32045,,baseline@5;clip_raw_weighted_sum@3;clip_rrf@3;clip_title_only@4;clip_weighted_sum@3
+F18,white socks,30549,Nike Unisex Pack of 3 Socks,Socks,White,Unisex,/images/30549,,clip_image_only@5
+F18,white socks,30542,Nike Unisex Pack of 3 Socks,Socks,White,Unisex,/images/30542,,clip_image_only@4
+F18,white socks,32173,Playboy Women White Socks,Socks,White,Women,/images/32173,,clip_weighted_sum@5
+F18,white socks,15276,Nike Men pack of 3 Sports Socks,Socks,White,Men,/images/15276,,clip_image_only@1
+F18,white socks,37658,Playboy Men White Socks,Socks,White,Men,/images/37658,,baseline@2;clip_raw_weighted_sum@5
+F18,white socks,32037,Playboy Men White Socks,Socks,White,Men,/images/32037,,baseline@3;clip_rrf@4;clip_title_only@3
+F18,white socks,30546,Nike Unisex Pack of 3 Socks,Socks,White,Unisex,/images/30546,,clip_image_only@2;clip_rrf@5
+F18,white socks,32006,Playboy Men White Socks,Socks,White,Men,/images/32006,,clip_raw_weighted_sum@2;clip_rrf@2;clip_title_only@2;clip_weighted_sum@2
+F18,white socks,37657,Playboy Men White Socks,Socks,White,Men,/images/37657,,baseline@4;clip_raw_weighted_sum@4;clip_title_only@5;clip_weighted_sum@4
+F18,white socks,58634,Fila Men White Socks,Socks,White,Men,/images/58634,,baseline@1
+F18,white socks,31996,Playboy Men White Socks,Socks,White,Men,/images/31996,,clip_raw_weighted_sum@1;clip_rrf@1;clip_title_only@1;clip_weighted_sum@1
+F19,orange rucksack,25252,Lino Perros Women Orange Handbag,Handbags,Orange,Women,/images/25252,,clip_image_only@4
+F19,orange rucksack,34762,Be For Bag Women Orange Bag,Handbags,Orange,Women,/images/34762,,clip_title_only@2
+F19,orange rucksack,38141,Wildcraft Unisex Orange & Grey Backpack,Backpacks,Orange,Unisex,/images/38141,,clip_raw_weighted_sum@3;clip_rrf@3;clip_title_only@5;clip_weighted_sum@4
+F19,orange rucksack,7102,Wildcraft Unisex Orange & Grey Backpack,Backpacks,Orange,Unisex,/images/7102,,clip_title_only@4
+F19,orange rucksack,4592,Wildcraft Unisex Orange Printed Laptop Backpack,Backpacks,Orange,Unisex,/images/4592,,clip_image_only@1
+F19,orange rucksack,25256,Lino Perros Women Orange Backpacks,Backpacks,Orange,Women,/images/25256,,clip_raw_weighted_sum@1;clip_rrf@1;clip_title_only@3;clip_weighted_sum@2
+F19,orange rucksack,8312,Fastrack Men Black & Orange Backpack,Backpacks,Black,Men,/images/8312,,clip_raw_weighted_sum@5;clip_rrf@5;clip_weighted_sum@5
+F19,orange rucksack,38968,Wildcraft Unisex Yellow & Grey Rucksack,Rucksacks,Yellow,Unisex,/images/38968,,baseline@1
+F19,orange rucksack,4601,Wildcraft Unisex Blue & Grey Rucksack,Rucksacks,Blue,Unisex,/images/4601,,baseline@1
+F19,orange rucksack,19913,Wildcraft Unisex Grey & Yellow Rucksack,Rucksacks,Yellow,Unisex,/images/19913,,baseline@1
+F19,orange rucksack,7780,Wildcraft Unisex Grey & Orange Rucksack,Rucksacks,Orange,Unisex,/images/7780,,baseline@2;clip_image_only@5
+F19,orange rucksack,4582,Wildcraft Unisex Orange Daypack A4 Backpack,Backpacks,Orange,Unisex,/images/4582,,clip_image_only@2;clip_raw_weighted_sum@4;clip_rrf@4;clip_weighted_sum@3
+F19,orange rucksack,4594,Wildcraft Unisex Red & Grey Rucksack,Rucksacks,Red,Unisex,/images/4594,,baseline@1
+F19,orange rucksack,39511,Peter England Unisex Orange Backpack,Backpacks,Orange,Unisex,/images/39511,,clip_image_only@3;clip_raw_weighted_sum@2;clip_rrf@2;clip_weighted_sum@1
+F19,orange rucksack,32598,ONLY Women Orange Top,Tops,Orange,Women,/images/32598,,clip_title_only@1
+F20,floral print dress,34095,Doodle Girls Printed Multi Coloured Dress,Dresses,Off White,Girls,/images/34095,,clip_raw_weighted_sum@2;clip_title_only@3
+F20,floral print dress,8484,Forever New Women Floral Purple Dress,Dresses,Purple,Women,/images/8484,,clip_raw_weighted_sum@4;clip_title_only@4
+F20,floral print dress,52456,Red Rose White Printed Nightdress,Nightdress,White,Women,/images/52456,,clip_rrf@5
+F20,floral print dress,47656,Femella Women Black Printed Dress,Dresses,Black,Women,/images/47656,,clip_rrf@1;clip_weighted_sum@3
+F20,floral print dress,23621,Doodle Kids Girls Navy Blue Floral Print Dress,Dresses,Navy Blue,Girls,/images/23621,,baseline@1
+F20,floral print dress,43920,Femella Women Cream Printed Dress,Dresses,Cream,Women,/images/43920,,clip_rrf@2;clip_weighted_sum@5
+F20,floral print dress,7306,UCB Women's Sleeveless Off White Dress,Dresses,White,Women,/images/7306,,clip_image_only@3
+F20,floral print dress,19070,W Women Floral Print Blue Kurta,Kurtas,Blue,Women,/images/19070,,baseline@1
+F20,floral print dress,57051,Elle Women Multi Coloured Dress,Dresses,Multi,Women,/images/57051,,clip_image_only@2;clip_weighted_sum@2
+F20,floral print dress,23050,Arrow Woman Multi Coloured Floral Dress,Dresses,Multi,Women,/images/23050,,clip_raw_weighted_sum@1;clip_rrf@4;clip_title_only@1;clip_weighted_sum@1
+F20,floral print dress,37948,Mineral Women Blue Floral Print Shirt,Shirts,Blue,Women,/images/37948,,baseline@1
+F20,floral print dress,39217,Femella Women Floral Red Dress,Dresses,Red,Women,/images/39217,,baseline@2;clip_title_only@5
+F20,floral print dress,32378,Arrow Woman Printed Multi Coloured Dress,Dresses,Cream,Women,/images/32378,,clip_raw_weighted_sum@5;clip_rrf@3
+F20,floral print dress,21929,BIBA Women Printed Blue Kurta,Kurtas,Blue,Women,/images/21929,,clip_image_only@4
+F20,floral print dress,58499,Tonga White Floral Design Dress,Dresses,White,Women,/images/58499,,clip_raw_weighted_sum@3;clip_title_only@2
+F20,floral print dress,57085,Elle Women Off-White & Orange Floral Print Tulip Skirt,Skirts,Off White,Women,/images/57085,,clip_image_only@5
+F20,floral print dress,4987,Gini and Jony Girl's Viveca White Floral Kidswear,Dresses,White,Women,/images/4987,,clip_image_only@1
+F20,floral print dress,38832,Latin Quarters Women White & Pink Printed Dress,Dresses,White,Women,/images/38832,,clip_weighted_sum@4
+F20,floral print dress,11017,Wrangler Women Floral Print Blue Top,Tops,Blue,Women,/images/11017,,baseline@1

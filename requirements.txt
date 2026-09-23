@@ -1,0 +1,29 @@
+# Verified working on Windows 11, Python 3.13.5, CPU-only.
+# Install torch first from the index that matches your hardware:
+#   CPU:  pip install torch --index-url https://download.pytorch.org/whl/cpu
+#   CUDA: see https://pytorch.org/get-started/locally/
+
+torch==2.14.0
+transformers==4.57.6
+numpy==2.5.0
+pandas==2.3.3
+pyarrow==25.0.1          # parquet engine for the unified row table
+Pillow==12.2.0
+
+# Vector store. Pinned together with the milvusdb/milvus image in
+# deploy/milvus/docker-compose.yml -- upgrade both at once. Optional: without it
+# the search falls back to the exact NumPy table.
+pymilvus==3.0.2
+
+fastapi==0.141.1
+uvicorn==0.53.0
+python-multipart==0.0.32  # multipart/form-data uploads for POST /search/image
+
+pytest==8.4.2
+httpx==0.28.1             # required by fastapi.testclient
+
+matplotlib==3.11.0        # figures in fashion_data_cleaning.ipynb only
+
+# Not required. torchvision is only needed for CLIPProcessor(use_fast=True);
+# src/encoder.py deliberately uses the PIL/NumPy processor so it is optional.
+# torchvision==0.25.0

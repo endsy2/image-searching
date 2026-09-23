@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fashion Product Search</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<header>
+  <h1>Fashion Product Search</h1>
+  <p class="sub">CLIP <code>ViT-B/32</code> &middot; image and title embeddings in one unified vector table, fused into a single ranking.</p>
+  <p id="status" class="status" role="status"></p>
+</header>
+
+<main>
+  <section class="panel">
+    <div class="tabs" role="tablist">
+      <button class="tab active" data-mode="text" role="tab" aria-selected="true">Text search</button>
+      <button class="tab" data-mode="image" role="tab" aria-selected="false">Image search</button>
+    </div>
+
+    <div id="text-pane" class="pane">
+      <label class="sr-only" for="query">Search phrase</label>
+      <div class="row">
+        <input id="query" type="text" placeholder="navy blue sports shoes" autocomplete="off">
+        <button id="search-text" class="primary">Search</button>
+      </div>
+      <p class="hint">Examples:
+        <button class="chip" type="button">navy blue sports shoes</button>
+        <button class="chip" type="button">black leather handbag</button>
+        <button class="chip" type="button">women's red summer dress</button>
+        <button class="chip" type="button">silver analog watch</button>
+      </p>
+    </div>
+
+    <div id="image-pane" class="pane hidden">
+      <div class="row">
+        <input id="file" type="file" accept="image/*">
+        <button id="search-image" class="primary">Search</button>
+      </div>
+      <img id="preview" class="preview hidden" alt="Uploaded query preview">
+    </div>
+
+    <details class="options">
+      <summary>Options</summary>
+      <div class="option-grid">
+        <label>Fusion strategy
+          <select id="strategy">
+            <option value="weighted_sum">Weighted sum (normalized)</option>
+            <option value="rrf">Reciprocal Rank Fusion</option>
+            <option value="raw_weighted_sum">Raw weighted sum</option>
+            <option value="image_only">Image only</option>
+            <option value="title_only">Title only</option>
+          </select>
+        </label>
+        <label>Results
+          <input id="topk" type="number" min="1" max="100" value="10">
+        </label>
+        <label id="weight-field">Image weight <span id="weight-value">0.50</span>
+          <input id="weight" type="range" min="0" max="1" step="0.05" value="0.5">
+        </label>
+        <label>Article type <select id="f-articleType"><option value="">All</option></select></label>
+        <label>Colour <select id="f-baseColour"><option value="">All</option></select></label>
+        <label>Gender <select id="f-gender"><option value="">All</option></select></label>
+      </div>
+    </details>
+  </section>
+
+  <section id="meta" class="meta hidden"></section>
+
+  <div id="spinner" class="spinner hidden" aria-live="polite"><span></span> Searching&hellip;</div>
+  <p id="message" class="message hidden"></p>
+  <section id="results" class="grid"></section>
+</main>
+
+<script src="/app.js"></script>
+</body>
+</html>
