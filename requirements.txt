@@ -19,6 +19,8 @@ fastapi==0.141.1
 uvicorn==0.53.0
 python-multipart==0.0.32  # multipart/form-data uploads for POST /search/image
 
+mlflow==3.4.0           # experiment tracking (src/track_mlflow.py); optional
+
 pytest==8.4.2
 httpx==0.28.1             # required by fastapi.testclient
 
