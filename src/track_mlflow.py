@@ -1,16 +1,3 @@
-"""Log the project's measured results to MLflow.
-
-There is no training step (frozen CLIP ViT-B/32), so the "experiment" is the
-embedding build and its evaluation: parameters come from the embedding manifest,
-metrics from the manifest timings and evaluation/{timings,measurements}.json.
-Nothing is recomputed or invented - this only records what is already on disk.
-
-    python -m src.track_mlflow                         # ./mlruns (file store)
-    python -m src.track_mlflow --uri http://127.0.0.1:5000
-    mlflow ui                                          # browse the runs
-
-MLFLOW_TRACKING_URI is honoured when --uri is not given.
-"""
 from __future__ import annotations
 
 import argparse
@@ -102,3 +89,4 @@ def main(argv: list[str] | None = None) -> int:
 
 if __name__ == '__main__':
     sys.exit(main())
+w
