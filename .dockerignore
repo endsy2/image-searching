@@ -20,3 +20,6 @@ Dockerfile
 docker-compose*.yml
 .dockerignore
 deploy/
+mlruns/
+mlflow-data/
+mlflow.db
