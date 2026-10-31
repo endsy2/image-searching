@@ -23,6 +23,9 @@ pytest==8.4.2
 httpx==0.28.1             # required by fastapi.testclient
 
 matplotlib==3.11.0        # figures in fashion_data_cleaning.ipynb only
+# mlflow is deliberately absent: mlflow 2.x pins pyarrow<20, which conflicts
+# with pyarrow==25.0.1 above. src/track_mlflow.py runs in the mlflow service
+# image instead (see docker-compose.yml, mlflow-log).
 
 # Not required. torchvision is only needed for CLIPProcessor(use_fast=True);
 # src/encoder.py deliberately uses the PIL/NumPy processor so it is optional.

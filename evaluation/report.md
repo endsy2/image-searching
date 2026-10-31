@@ -182,7 +182,7 @@ python -m src.build_embeddings --batch-size 64             # §1 indexing time
 python -m src.evaluate timing                              # §1 latency and cold start
 python -m src.evaluate images --n 20                       # §4
 python -m src.evaluate pool --split development            # §5 judging sheet
-python -m pytest -q                                        # 72 tests
+python -m pytest -q                                        # 85 tests
 ```
 
 The §2 and §3 tables come from `evaluation/measurements.json`.
@@ -239,5 +239,5 @@ Verified against the running app (`python -m uvicorn app:app`) on the full catal
 
 No error response contained a traceback, a file path, or any internal detail.
 
-Automated suite: **72 tests pass** with no GPU, no model weights, and no dataset
+Automated suite: **85 tests pass** with no GPU, no model weights, and no dataset
 (`python -m pytest -q`), using a fake encoder and a synthetic 6-product catalog.

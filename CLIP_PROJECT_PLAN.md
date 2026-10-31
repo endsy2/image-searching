@@ -307,6 +307,6 @@ Not a hardware estimate — estimate the full embedding build from the session-1
 - [ ] **Fusion strategies compared on the same judged pool** - pending the same grades.
 - [x] 20 image queries run with duplicate exclusion (metadata agreement measured; grades pending).
 - [x] Indexing time, warm latency, and cold startup recorded with device and batch size.
-- [x] Tests pass without model weights or the full dataset (72 tests).
+- [x] Tests pass without model weights or the full dataset (85 tests).
 - [x] README and evaluation report complete. [ ] Screenshots pending.
 - [ ] Documented workflow reproduced on a clean checkout.

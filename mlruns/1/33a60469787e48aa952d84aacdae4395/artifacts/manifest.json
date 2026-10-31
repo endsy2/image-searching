@@ -1,0 +1,66 @@
+{
+  "batch_size": 64,
+  "built_at": "2026-10-30T09:57:36+00:00",
+  "catalog_fingerprint": "46a06e5aac690c151146b7809cf80c781eb8de7f93c655714edb2b884e90b341",
+  "catalog_path": "artifacts/catalog_sample_500.csv",
+  "catalog_products": 500,
+  "device": "cpu",
+  "dim": 512,
+  "encoder": {
+    "context_length": 77,
+    "dim": 512,
+    "image_mean": [
+      0.48145466,
+      0.4578275,
+      0.40821073
+    ],
+    "image_size": 224,
+    "image_std": [
+      0.26862954,
+      0.26130258,
+      0.27577711
+    ],
+    "model_id": "openai/clip-vit-base-patch32",
+    "model_source": "transformers.CLIPModel"
+  },
+  "environment": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "platform": "macOS-26.6.1-arm64-arm-64bit-Mach-O",
+    "python": "3.14.6",
+    "torch": "2.15.0",
+    "transformers": "4.57.6"
+  },
+  "failure_count": 3,
+  "failures": [
+    {
+      "error": "blank productDisplayName",
+      "id": 42863,
+      "stage": "title"
+    },
+    {
+      "error": "blank productDisplayName",
+      "id": 43119,
+      "stage": "title"
+    },
+    {
+      "error": "blank productDisplayName",
+      "id": 45698,
+      "stage": "title"
+    }
+  ],
+  "products_embedded": 500,
+  "row_counts": {
+    "image": 500,
+    "title": 497
+  },
+  "schema_version": 1,
+  "timings": {
+    "image_encode_seconds": 5.13,
+    "images_per_second": 97.55,
+    "title_encode_seconds": 3.34,
+    "total_index_seconds": 8.47
+  },
+  "titles_skipped_blank": 3,
+  "total_rows": 997
+}

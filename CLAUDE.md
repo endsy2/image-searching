@@ -8,7 +8,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 The parent folder's `CLAUDE.md` describes a different, unrelated project (a Milvus lyrics search engine). Nothing in it applies here.
 
-**Status: built and running.** The full pipeline exists - encoder, unified embedding build, fusion, search, FastAPI app, static UI, evaluation harness, 72 tests, `requirements.txt`, README. The unified vector table (`artifacts/embeddings/`) holds 88,875 rows: 44,441 `image` + 44,434 `title` (7 products have a blank title and carry an image row only). Built 2026-09-22 on CPU; see `evaluation/report.md` for measured timings.
+**Status: built and running.** The full pipeline exists - encoder, unified embedding build, fusion, search, FastAPI app, static UI, evaluation harness, 85 tests, `requirements.txt`, README. The unified vector table (`artifacts/embeddings/`) holds 88,875 rows: 44,441 `image` + 44,434 `title` (7 products have a blank title and carry an image row only). Built 2026-09-22 on CPU; see `evaluation/report.md` for measured timings.
 
 The one thing outstanding is the **relevance judging pass**: `evaluation/judgments_{development,final_test}.csv` are pooled, blind and complete but every `grade` cell is blank, so no Precision@5 exists yet. Never fill those cells by inference - they are a human step.
 

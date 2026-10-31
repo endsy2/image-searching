@@ -1,0 +1,34 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "permission": {
+    "edit": "ask",
+    "read": "allow",
+    "bash": "ask",
+    "webfetch": "allow",
+    "websearch": "allow",
+    "git push": "ask",
+    "git log*": "allow",
+    "git status": "allow"
+  },
+  "lsp": true,
+  "mcp": {
+    "servers": {
+      "context7": {
+        "type": "remote",
+        "url": "https://mcp.context7.com/mcp"
+      },
+      "searxng": {
+        "type": "local",
+        "command": ["bunx", "@tterrasson/mcp-searxng"],
+        "environment": {
+          "SEARXNG_URL": "http://100.76.126.16:8888"
+        }
+      }
+    }
+  },
+  "agent": {
+    "build": {
+      "temperature": 0.2
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
-  "batch_size": 32,
-  "built_at": "2026-09-22T15:37:22+00:00",
+  "batch_size": 64,
+  "built_at": "2026-10-31T00:14:30+00:00",
   "catalog_fingerprint": "46a06e5aac690c151146b7809cf80c781eb8de7f93c655714edb2b884e90b341",
   "catalog_path": "artifacts/data_preparation/catalog_sample_500.csv",
   "catalog_products": 500,
@@ -26,8 +26,8 @@
   "environment": {
     "numpy": "2.5.0",
     "pandas": "2.3.3",
-    "platform": "Windows-11-10.0.26200-SP0",
-    "python": "3.13.5",
+    "platform": "Linux-6.12.54-linuxkit-aarch64-with-glibc2.41",
+    "python": "3.13.18",
     "torch": "2.14.0+cpu",
     "transformers": "4.57.6"
   },
@@ -56,10 +56,10 @@
   },
   "schema_version": 1,
   "timings": {
-    "image_encode_seconds": 15.88,
-    "images_per_second": 31.48,
-    "title_encode_seconds": 10.48,
-    "total_index_seconds": 26.36
+    "image_encode_seconds": 18.11,
+    "images_per_second": 27.61,
+    "title_encode_seconds": 12.0,
+    "total_index_seconds": 30.11
   },
   "titles_skipped_blank": 3,
   "total_rows": 997
