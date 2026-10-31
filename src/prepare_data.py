@@ -1,4 +1,7 @@
-"""Data preparation and catalog curation for Fashion CLIP search.
+"""DEPRECATED — do not use.
+Diverges from the canonical path (fashion_data_cleaning.ipynb) and is not read by any downstream code. See ARCHITECTURE.md §3.
+
+Data preparation and catalog curation for Fashion CLIP search.
 
 Preserves original data in dataset/ and outputs validated artifacts to artifacts/.
 """
@@ -138,6 +141,7 @@ def build_catalog(root_dir: Path = None, output_dir: Path = None):
     output_dir.mkdir(parents=True, exist_ok=True)
 
     csv_path = root_dir / 'dataset/styles.csv'
+    # archive/ does not exist in this checkout; kept dormant per CLIP_PROJECT_PLAN.md §7.
     image_dirs = [root_dir / 'dataset/images', root_dir / 'archive/images']
 
     print(f"Loading styles from {csv_path}...")

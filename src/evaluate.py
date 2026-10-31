@@ -254,7 +254,6 @@ def command_timing(args) -> int:
     cold_seconds = time.perf_counter() - cold_started
 
     queries = load_queries()['query'].tolist()
-    # Warm up so the first-call lazy paths are not counted as query latency.
     for query in queries[:3]:
         engine.search_text(query, top_k=10)
 

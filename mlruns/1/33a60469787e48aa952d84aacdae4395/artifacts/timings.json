@@ -1,0 +1,32 @@
+{
+  "device": "cpu",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.13.5",
+  "catalog_products": 44441,
+  "unified_table_rows": 88875,
+  "row_counts": {
+    "image": 44441,
+    "title": 44434
+  },
+  "embedding_dim": 512,
+  "indexing": {
+    "batch_size": 64,
+    "total_index_seconds": 2486.12,
+    "image_encode_seconds": 1478.33,
+    "title_encode_seconds": 1007.79,
+    "images_per_second": 30.06
+  },
+  "cold_startup_seconds": 8.84,
+  "warm_text_query_ms": {
+    "n": 32,
+    "mean": 37.1,
+    "median": 36.2,
+    "p95": 41.7
+  },
+  "warm_image_query_ms": {
+    "n": 20,
+    "mean": 56.2,
+    "median": 52.4,
+    "p95": 88.0
+  }
+}
